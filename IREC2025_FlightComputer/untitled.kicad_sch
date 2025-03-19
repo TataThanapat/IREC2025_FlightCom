@@ -2471,7 +2471,7 @@
 	)
 	(text "DIO1: TXDONE\n  DIO2: RF Switch\n DIO3: RXDONE "
 		(exclude_from_sim no)
-		(at 252.222 149.86 0)
+		(at 250.19 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,6 +3101,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608c494c-0b88-426c-a974-f431d7a99cb2")
+	)
+	(wire
+		(pts
 			(xy 55.88 90.17) (xy 62.23 90.17)
 		)
 		(stroke
@@ -3531,16 +3541,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 115.57 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f10d8b-af00-463a-8414-e2db67d2cfed")
-	)
-	(wire
-		(pts
 			(xy 283.21 123.19) (xy 283.21 127)
 		)
 		(stroke
@@ -3751,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 105.41 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea1fd25e-948d-4232-85fa-01502f1f6bb3")
-	)
-	(wire
-		(pts
 			(xy 59.69 40.64) (xy 40.64 40.64)
 		)
 		(stroke
@@ -3811,7 +3801,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "LoRa_MISO"
 		(shape input)
 		(at 264.16 138.43 270)
 		(fields_autoplaced yes)
@@ -3823,7 +3813,7 @@
 		)
 		(uuid "0bdcb88d-b57e-4d26-b1e9-aa06c729efcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.16 146.0114 90)
+			(at 264.16 151.5751 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +3913,7 @@
 	)
 	(global_label "XTA"
 		(shape input)
-		(at 115.57 40.64 0)
+		(at 104.14 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3933,7 +3923,7 @@
 		)
 		(uuid "3876b498-c9a2-4c4a-8d08-d749cbde8038")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.8209 40.64 0)
+			(at 110.3909 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3955,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "LoRa_SCLK"
 		(shape input)
 		(at 261.62 138.43 270)
 		(fields_autoplaced yes)
@@ -3977,7 +3967,7 @@
 		)
 		(uuid "556be6c3-3f88-45e8-b9c4-68520b5cc9e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 145.1647 90)
+			(at 261.62 151.7565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3977,7 @@
 			)
 		)
 	)
-	(global_label "NSS"
+	(global_label "LoRa_NSS"
 		(shape input)
 		(at 269.24 138.43 270)
 		(fields_autoplaced yes)
@@ -3999,7 +3989,7 @@
 		)
 		(uuid "8938816f-1033-4f16-8a43-38c624171128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 145.1647 90)
+			(at 269.24 150.7284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4109,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "LoRa_MOSI"
 		(shape input)
 		(at 266.7 138.43 270)
 		(fields_autoplaced yes)
@@ -4131,7 +4121,7 @@
 		)
 		(uuid "eccffcda-daa2-4b42-9515-38d4d135a08a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 146.0114 90)
+			(at 266.7 151.5751 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10nF"
 			(at 43.18 58.4262 0)
 			(effects
 				(font
@@ -6961,74 +6951,6 @@
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/24d4e930-e2ab-47c0-a5cd-8b7215a2cae3"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 102.87 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "821b55c0-9e16-4b66-9c15-6c98614f2f73")
-		(property "Reference" "C27"
-			(at 102.8763 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 102.8763 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 102.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bebdff3-5f6d-49f2-90a7-bfce62e2f2ab")
-		)
-		(pin "1"
-			(uuid "b087b396-7a92-48e5-ab51-5d61b067590c")
-		)
-		(instances
-			(project "IREC2025_FlightComputer"
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/24d4e930-e2ab-47c0-a5cd-8b7215a2cae3"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8134,74 +8056,6 @@
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/24d4e930-e2ab-47c0-a5cd-8b7215a2cae3"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 110.49 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ded74ccd-6e73-4a48-887b-a95a21896d6c")
-		(property "Reference" "R11"
-			(at 110.49 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 110.49 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fb6cbe5-86a4-47ec-b64d-7cf3f8abb915")
-		)
-		(pin "2"
-			(uuid "a99755b6-c439-44e9-a587-459938a5636c")
-		)
-		(instances
-			(project "IREC2025_FlightComputer"
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/24d4e930-e2ab-47c0-a5cd-8b7215a2cae3"
-					(reference "R11")
 					(unit 1)
 				)
 			)
