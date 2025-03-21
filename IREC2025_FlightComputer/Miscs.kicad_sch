@@ -4223,7 +4223,7 @@
 	)
 	(rectangle
 		(start 141.605 21.59)
-		(end 234.95 60.325)
+		(end 255.27 60.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -4272,6 +4272,12 @@
 		(uuid "010bf142-ddff-472a-ad03-eab6f3551a75")
 	)
 	(junction
+		(at 233.68 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb70752-9a47-49e4-9f64-7fe7c5c7dd7d")
+	)
+	(junction
 		(at 49.53 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4288,12 +4294,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14b1ac1c-491d-4be2-a8cc-d7a8ab8f321b")
-	)
-	(junction
-		(at 35.56 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f91e5c3-cdc0-402b-8658-3b5aca33254f")
 	)
 	(junction
 		(at 97.79 222.25)
@@ -4324,6 +4324,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33496e12-4c26-4fa6-b406-6a9f1de159b5")
+	)
+	(junction
+		(at 240.03 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4324008c-e422-4b05-95f9-bfb114af5721")
 	)
 	(junction
 		(at 154.94 50.8)
@@ -4464,16 +4470,16 @@
 		(uuid "b91a286e-e742-4b87-87e3-97621baa84bd")
 	)
 	(junction
+		(at 223.52 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba925e51-36d1-464b-8518-4e9efbe0bfd4")
+	)
+	(junction
 		(at 191.77 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd64bf35-f445-427d-a674-01e48e4d19b3")
-	)
-	(junction
-		(at 226.06 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c142923f-a7b5-4dd2-8ea2-a89903df3e36")
 	)
 	(junction
 		(at 173.99 34.29)
@@ -5101,13 +5107,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 31.75) (xy 35.56 114.3)
+			(xy 35.56 31.75) (xy 35.56 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08ce52b1-fcce-4f6d-925f-5f2c27f047e0")
+	)
+	(wire
+		(pts
+			(xy 233.68 34.29) (xy 233.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0affc55c-2931-4f3d-a062-7bcda90fce1c")
 	)
 	(wire
 		(pts
@@ -5168,6 +5184,16 @@
 			(type default)
 		)
 		(uuid "12e0ef3b-f50a-4349-aafc-b30a2bfae843")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14095b8a-ec18-4726-8740-c91ae7c03fb9")
 	)
 	(wire
 		(pts
@@ -5481,16 +5507,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 34.29) (xy 226.06 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a89e3f-a2f1-426c-b14b-db70bbbc398d")
-	)
-	(wire
-		(pts
 			(xy 191.77 50.8) (xy 201.93 50.8)
 		)
 		(stroke
@@ -5551,6 +5567,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 34.29) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62539714-b74d-4b13-8658-ddc3bf811e04")
+	)
+	(wire
+		(pts
 			(xy 212.09 45.72) (xy 212.09 50.8)
 		)
 		(stroke
@@ -5568,6 +5594,16 @@
 			(type default)
 		)
 		(uuid "65358057-0040-4d9c-872d-7001aa825e55")
+	)
+	(wire
+		(pts
+			(xy 39.37 114.3) (xy 54.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a10cdd8-b89a-4435-9b82-06e2e16c062d")
 	)
 	(wire
 		(pts
@@ -5761,6 +5797,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 50.8) (xy 223.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c86828d-64b0-4de7-83bf-baab8559f495")
+	)
+	(wire
+		(pts
 			(xy 39.37 64.77) (xy 40.64 64.77)
 		)
 		(stroke
@@ -5771,7 +5817,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 31.75) (xy 232.41 34.29)
+			(xy 247.65 31.75) (xy 247.65 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5881,6 +5927,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 34.29) (xy 247.65 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b6eb9b-bcf9-46fa-9440-177b3a4efe06")
+	)
+	(wire
+		(pts
 			(xy 212.09 34.29) (xy 223.52 34.29)
 		)
 		(stroke
@@ -5938,16 +5994,6 @@
 			(type default)
 		)
 		(uuid "c730dea4-5893-4b74-bfd4-d861ab4974df")
-	)
-	(wire
-		(pts
-			(xy 35.56 114.3) (xy 35.56 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c861bc93-e581-4044-94c8-7b5ccdd58f40")
 	)
 	(wire
 		(pts
@@ -6051,6 +6097,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 45.72) (xy 233.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7af9f44-9e73-4c38-98a8-b2ca8cf9a023")
+	)
+	(wire
+		(pts
 			(xy 87.63 176.53) (xy 97.79 176.53)
 		)
 		(stroke
@@ -6081,17 +6137,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 114.3) (xy 54.61 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3da67b-d464-41f4-ac81-1537b25f4e4d")
-	)
-	(wire
-		(pts
-			(xy 223.52 34.29) (xy 226.06 34.29)
+			(xy 223.52 34.29) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6601,7 +6647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b9d0ce-19c2-4082-b056-5d5b2efdcbb4")
-		(property "Reference" "U9"
+		(property "Reference" "U17"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -7115,7 +7161,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "U9")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -7130,7 +7176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bde2900-6af3-469f-b954-b403fa08fedc")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR094"
 			(at 93.98 242.57 0)
 			(effects
 				(font
@@ -7180,7 +7226,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR058")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7195,7 +7241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "275eab97-14a5-4e16-a634-d342a0c182da")
-		(property "Reference" "R17"
+		(property "Reference" "R28"
 			(at 37.338 73.914 90)
 			(effects
 				(font
@@ -7402,7 +7448,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R17")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "277d68d5-2cf6-4161-b1f8-f18531ec0334")
-		(property "Reference" "R18"
+		(property "Reference" "R29"
 			(at 42.418 73.914 90)
 			(effects
 				(font
@@ -7624,7 +7670,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R18")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7639,7 +7685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36167cf0-0456-43f1-842e-1586f8d2d266")
-		(property "Reference" "R12"
+		(property "Reference" "R23"
 			(at 38.608 42.164 90)
 			(effects
 				(font
@@ -7846,7 +7892,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R12")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7854,7 +7900,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 232.41 31.75 0)
+		(at 247.65 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7862,8 +7908,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46872638-eb8a-488c-b1a7-9d297fd26879")
-		(property "Reference" "#PWR053"
-			(at 232.41 35.56 0)
+		(property "Reference" "#PWR089"
+			(at 247.65 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7918,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 232.41 26.67 0)
+			(at 247.65 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 31.75 0)
+			(at 247.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 31.75 0)
+			(at 247.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 232.41 31.75 0)
+			(at 247.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +7958,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR053")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -7928,7 +7974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6bc871-6a9f-418d-b202-1347d21e5fe5")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR096"
 			(at 45.72 245.11 0)
 			(effects
 				(font
@@ -7978,7 +8024,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR050")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -7994,7 +8040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcc99a3-fb62-48a8-8d0d-9ee6ba4cd834")
-		(property "Reference" "C49"
+		(property "Reference" "C67"
 			(at 214.63 39.3699 0)
 			(effects
 				(font
@@ -8174,7 +8220,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C49")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "579201b0-3f2d-42f1-aaf5-328ac6994f20")
-		(property "Reference" "C47"
+		(property "Reference" "C65"
 			(at 194.31 39.3699 0)
 			(effects
 				(font
@@ -8370,7 +8416,202 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C47")
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,10uF")
+		(at 39.37 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5811a078-09c6-40f9-848c-f8df2683e9bc")
+		(property "Reference" "C70"
+			(at 40.894 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 41.148 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 37.592 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2048985"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.007USD"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A106MQ5NUNC"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "6.3V"
+			(at 41.148 132.334 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecca582a-f188-4dde-ad19-3467f9c6dd84")
+		)
+		(pin "1"
+			(uuid "96d53441-b722-4723-a393-7e7c32c93000")
+		)
+		(instances
+			(project "IREC2025_FlightComputer"
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -8386,7 +8627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc197ac-65d4-4762-ac38-2cea02b02b19")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR087"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -8436,7 +8677,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR051")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -8452,7 +8693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6268d142-dee3-44b3-9153-b05050a33ce3")
-		(property "Reference" "C46"
+		(property "Reference" "C64"
 			(at 185.42 39.3699 0)
 			(effects
 				(font
@@ -8632,7 +8873,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C46")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -8648,7 +8889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6466f133-db28-45d8-b63c-60dca44bb018")
-		(property "Reference" "R11"
+		(property "Reference" "R31"
 			(at 128.27 127 90)
 			(effects
 				(font
@@ -8854,7 +9095,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R11")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8869,7 +9110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b995363-9219-4d1a-8028-6d5f30127fb4")
-		(property "Reference" "R15"
+		(property "Reference" "R26"
 			(at 25.908 73.914 90)
 			(effects
 				(font
@@ -9076,7 +9317,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R15")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9091,7 +9332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bea9ad3-362d-4b97-b42c-409b5ca59bfa")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR095"
 			(at 97.79 242.57 0)
 			(effects
 				(font
@@ -9141,7 +9382,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR049")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -9156,7 +9397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73e52bf9-b472-4687-9d7b-829c2773683a")
-		(property "Reference" "R19"
+		(property "Reference" "R30"
 			(at 47.498 73.914 90)
 			(effects
 				(font
@@ -9363,7 +9604,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R19")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9379,7 +9620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c949c0-6a8b-41f3-9ab3-8eaec3462f7a")
-		(property "Reference" "C44"
+		(property "Reference" "C62"
 			(at 167.64 39.3699 0)
 			(effects
 				(font
@@ -9559,7 +9800,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C44")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -9575,7 +9816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c67f123-a503-4854-a82b-98991f95e526")
-		(property "Reference" "C50"
+		(property "Reference" "C68"
 			(at 226.06 39.3699 0)
 			(effects
 				(font
@@ -9755,7 +9996,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C50")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -9771,7 +10012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e481ddc-63dd-47be-9c1c-87463e4338f6")
-		(property "Reference" "C45"
+		(property "Reference" "C63"
 			(at 176.53 39.3699 0)
 			(effects
 				(font
@@ -9951,7 +10192,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C45")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -9967,7 +10208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8500dabb-efd2-4eaf-8cbd-6297ee2aab5c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR086"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -10017,7 +10258,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR052")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -10033,7 +10274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b451ae-dd07-46f3-afe5-1ecb7938c3d9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR088"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -10083,7 +10324,203 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR056")
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,10nF")
+		(at 233.68 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958a1de8-3cad-4b7e-a623-1b1202123b86")
+		(property "Reference" "C69"
+			(at 236.22 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 236.22 41.91 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 231.902 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2965057"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.005USD"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B103KB5NNNC"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10nF"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c30a3712-efc8-4851-a690-79cecdca4bc2")
+		)
+		(pin "1"
+			(uuid "b7afb5c9-27f3-4cdd-99e3-db5a9f213da0")
+		)
+		(instances
+			(project "IREC2025_FlightComputer"
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -10099,7 +10536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4df1538-8f03-4c3e-8bd3-5ad38c181e63")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR092"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -10149,7 +10586,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR055")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -10157,7 +10594,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 226.06 34.29 0)
+		(at 240.03 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10165,7 +10602,7 @@
 		(dnp no)
 		(uuid "bb6d1d7d-83a6-40d3-86c2-5aeaeb3e3310")
 		(property "Reference" "#FLG04"
-			(at 226.06 32.385 0)
+			(at 240.03 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +10611,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 226.06 30.734 0)
+			(at 240.03 30.734 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -10182,7 +10619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 34.29 0)
+			(at 240.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +10628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 34.29 0)
+			(at 240.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10637,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 226.06 34.29 0)
+			(at 240.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd2a9982-52a4-4db5-b086-2b7163320f6f")
-		(property "Reference" "C48"
+		(property "Reference" "C66"
 			(at 204.47 39.3699 0)
 			(effects
 				(font
@@ -10410,7 +10847,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C48")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -10426,7 +10863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0624fc0-3f7b-47f2-80c0-047030c0cef4")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR090"
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -10476,7 +10913,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR054")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -10492,7 +10929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce126e7a-9bd4-4f2b-a581-ada8991fee32")
-		(property "Reference" "C51"
+		(property "Reference" "C60"
 			(at 147.32 39.3699 0)
 			(effects
 				(font
@@ -10672,7 +11109,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C51")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -10688,7 +11125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf644804-0499-42da-a0b9-3165c310d6dc")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR091"
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -10738,7 +11175,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR057")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -10753,7 +11190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d564694e-74f9-4ee1-9631-43e327509ddb")
-		(property "Reference" "R20"
+		(property "Reference" "R32"
 			(at 91.948 232.664 90)
 			(effects
 				(font
@@ -10960,7 +11397,73 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R20")
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6162eef-a8dc-4836-acd1-210c916a5a0d")
+		(property "Reference" "#PWR093"
+			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f635cdc5-d0c1-4dcf-8ca7-2bc27ce30a13")
+		)
+		(instances
+			(project "IREC2025_FlightComputer"
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -10975,7 +11478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7b0ec22-fcb2-4d95-8ac2-f37ee5aca981")
-		(property "Reference" "R14"
+		(property "Reference" "R25"
 			(at 48.768 42.164 90)
 			(effects
 				(font
@@ -11182,7 +11685,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R14")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db54c12a-965a-42f9-9e76-b34e1e776463")
-		(property "Reference" "R16"
+		(property "Reference" "R27"
 			(at 30.988 73.914 90)
 			(effects
 				(font
@@ -11404,7 +11907,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R16")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeea1538-f147-445d-931d-6e5005b388fb")
-		(property "Reference" "R13"
+		(property "Reference" "R24"
 			(at 43.688 42.164 90)
 			(effects
 				(font
@@ -11626,7 +12129,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R13")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11642,7 +12145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40640d4-9231-4349-b5d9-ce02ac5364f8")
-		(property "Reference" "C43"
+		(property "Reference" "C61"
 			(at 157.48 39.3699 0)
 			(effects
 				(font
@@ -11822,7 +12325,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "C43")
+					(reference "C61")
 					(unit 1)
 				)
 			)
