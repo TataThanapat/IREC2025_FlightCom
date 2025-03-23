@@ -1,4 +1,4 @@
-24995158940437649
+25010841181151011
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57295,6 +57295,13 @@ LCC-20_L15.5-W15.5-P1.90_SAM-M10Q-00B
 20
 20
 EasyEDA
+LED0402-R-RD
+
+
+0
+2
+2
+EasyEDA
 LED0603-R-RD_WHITE
 
 
@@ -57309,12 +57316,33 @@ LGA-14_L5.0-W3.0-P0.80-BL
 14
 14
 EasyEDA
+LGA-16_L3.0-W3.0-P0.50-BL_SQ
+
+
+0
+16
+16
+EasyEDA
 LGA-16_L4.5-W3.0-P0.50-BL
 
 
 0
 16
 16
+EasyEDA
+OSC-SMD_4P-L2.0-W1.6-BL_1XXD
+
+
+0
+4
+4
+EasyEDA
+POWER-1212-8_L3.3-W3.3-P0.66-LS3.3-BL
+
+
+0
+10
+8
 EasyEDA
 R0402
 
@@ -57329,6 +57357,13 @@ SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
 0
 6
 6
+EasyEDA
+SENSOR-SMD_MS560702BA03-50
+
+
+0
+8
+8
 EasyEDA
 SMA_L4.4-W2.6-LS5.0-RD
 
@@ -57351,6 +57386,13 @@ SOD-123_L2.8-W1.8-LS3.7-RD
 2
 2
 EasyEDA
+SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL
+
+
+0
+14
+14
+EasyEDA
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
 
 
@@ -57371,6 +57413,20 @@ VQFN-16_L4.0-W4.0-P0.65-TL-EP2.2
 0
 17
 17
+EasyEDA
+VSSOP-8_L3.0-W3.0-P0.65-LS5.0-BL
+
+
+0
+8
+8
+EasyEDA
+WSON-6_L2.0-W2.0-P0.65-BL-EP
+
+
+0
+7
+7
 EasyEDA
 WSON-6_L2.0-W2.0-P0.65-TL-EP
 
@@ -58418,6 +58474,13 @@ Fuse
 Fuseholder_TR5_Littelfuse_No560_No460
 Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf
 Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
+GNSS
+3098
+3098-2
+Connector
 0
 2
 2

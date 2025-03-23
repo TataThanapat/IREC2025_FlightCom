@@ -5,54 +5,42 @@
 	(uuid "3d3dc726-3b7d-4992-b533-b90f615b471b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Battery3V_holder:3098"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+				(at -3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
+			(property "Value" "3098"
+				(at -3.81 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
+			(property "Footprint" "3098:BAT_3098"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiple-cell battery"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "batt voltage-source cell"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,102 +58,150 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
+			(property "MF" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.18mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
+					(justify bottom)
+					(hide yes)
 				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/3098/Keystone/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/3098/Keystone/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "3098"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=371074&manufacturer=Keystone Electronics&part_name=3098&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            SMT Holder for 6.8mm Cell-Matte Tin Plate | Keystone Electronics 3098\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "2998"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "3098_0_0"
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
+						(xy -3.81 1.905) (xy -2.54 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -177,7 +213,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
+						(xy -3.175 2.54) (xy -3.175 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -187,40 +223,128 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Battery_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "P1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "P2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2330,7 +2454,7 @@
 	)
 	(rectangle
 		(start 81.28 77.47)
-		(end 130.175 137.795)
+		(end 146.05 140.335)
 		(stroke
 			(width 0)
 			(type default)
@@ -2383,6 +2507,18 @@
 		(uuid "0aab7df6-092c-49f7-bbce-d9a7afb8d208")
 	)
 	(junction
+		(at 92.71 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3469b760-2905-45aa-929f-c6d952d929a8")
+	)
+	(junction
+		(at 92.71 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38693c25-dadf-4333-8fc6-efc918ab8c41")
+	)
+	(junction
 		(at 41.91 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2401,7 +2537,7 @@
 		(uuid "83ad1566-3154-475a-9c78-be7a2b2f618e")
 	)
 	(junction
-		(at 109.22 110.49)
+		(at 123.19 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9245f3da-e1c9-4f6c-988a-46fe5f2c76f6")
@@ -2434,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 92.71 110.49)
+			(xy 123.19 110.49) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2451,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "02587624-14dd-4402-9a5c-7926d54cd5b7")
+	)
+	(wire
+		(pts
+			(xy 101.6 113.03) (xy 102.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037220a9-8b19-4fa6-88dc-2a7bb2e22604")
 	)
 	(wire
 		(pts
@@ -2511,6 +2657,16 @@
 			(type default)
 		)
 		(uuid "1a04c64c-466a-4259-8728-e78f71ebbdba")
+	)
+	(wire
+		(pts
+			(xy 102.87 132.08) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff54d1f-080a-49fd-bd1f-a958bde85966")
 	)
 	(wire
 		(pts
@@ -2584,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 132.08) (xy 92.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594e32f1-3f13-4efb-bad1-5253c50f22a6")
+	)
+	(wire
+		(pts
 			(xy 39.37 36.83) (xy 48.26 36.83)
 		)
 		(stroke
@@ -2591,16 +2757,6 @@
 			(type default)
 		)
 		(uuid "5c755fe6-19a3-49a0-baf4-0a0d2e6fcb01")
-	)
-	(wire
-		(pts
-			(xy 55.88 97.79) (xy 55.88 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d027298-3278-4a8d-950c-f420a74fca0d")
 	)
 	(wire
 		(pts
@@ -2624,16 +2780,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 87.63) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780d89b0-45af-4cc6-a791-cea895eeeb67")
-	)
-	(wire
-		(pts
 			(xy 92.71 39.37) (xy 86.36 39.37)
 		)
 		(stroke
@@ -2644,6 +2790,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 113.03) (xy 93.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819321ac-6d03-410d-816c-0ed821e22b9c")
+	)
+	(wire
+		(pts
 			(xy 41.91 44.45) (xy 48.26 44.45)
 		)
 		(stroke
@@ -2651,16 +2807,6 @@
 			(type default)
 		)
 		(uuid "819436eb-e364-49b7-b84e-04e46fa5e636")
-	)
-	(wire
-		(pts
-			(xy 92.71 124.46) (xy 92.71 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83367e14-5f0d-4045-bf0e-a07c8c59f514")
 	)
 	(wire
 		(pts
@@ -2724,23 +2870,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 109.22 110.49)
+			(xy 130.81 110.49) (xy 123.19 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8478646-6dde-4126-af60-4092bcdce3b2")
-	)
-	(wire
-		(pts
-			(xy 92.71 110.49) (xy 92.71 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa96e468-5b3d-4101-8f69-6c807cb1d980")
 	)
 	(wire
 		(pts
@@ -2794,6 +2930,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 129.54) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0666a3-a603-4ab9-8647-160b8002367c")
+	)
+	(wire
+		(pts
+			(xy 102.87 127) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc04060d-9abf-4cec-8212-16c7b7123e18")
+	)
+	(wire
+		(pts
 			(xy 30.48 97.79) (xy 30.48 99.06)
 		)
 		(stroke
@@ -2844,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 109.22 129.54)
+			(xy 123.19 123.19) (xy 123.19 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2854,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 109.22 115.57)
+			(xy 123.19 110.49) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2874,13 +3030,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 55.88 110.49)
+			(xy 102.87 116.84) (xy 102.87 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f85f1f42-8fd8-4e29-b822-567979edb928")
+		(uuid "f87470c1-6bd4-44f2-9aab-a07bcd1bbb43")
+	)
+	(wire
+		(pts
+			(xy 92.71 110.49) (xy 92.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaa897a-b811-43ac-8c09-96b925388ca0")
 	)
 	(wire
 		(pts
@@ -2892,9 +3058,19 @@
 		)
 		(uuid "fc3b3fd7-5f6e-46bd-b3ca-384f33d28787")
 	)
+	(wire
+		(pts
+			(xy 92.71 113.03) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febfb6c7-df98-4537-afdb-1bbb701aa059")
+	)
 	(global_label "Backup"
 		(shape input)
-		(at 116.84 110.49 0)
+		(at 130.81 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2904,7 +3080,7 @@
 		)
 		(uuid "07987142-c4d9-4b30-b201-e82e9e870965")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.6589 110.49 0)
+			(at 140.6289 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3543,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,1kΩ")
-		(at 55.88 93.98 0)
+		(at 97.79 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3375,7 +3551,7 @@
 		(dnp no)
 		(uuid "29170d3d-b2ee-418a-bf9a-7e780ed29cbd")
 		(property "Reference" "R36"
-			(at 53.594 95.758 90)
+			(at 96.012 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3560,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 55.88 93.98 90)
+			(at 97.79 113.03 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3393,7 +3569,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 54.102 93.98 90)
+			(at 97.79 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3578,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3587,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3596,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3605,7 @@
 			)
 		)
 		(property "Stock" "8207005"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3614,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3623,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3632,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3641,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3650,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3659,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3668,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3677,7 @@
 			)
 		)
 		(property "Part" "0402WGF1001TCE"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3686,7 @@
 			)
 		)
 		(property "Resistance" "1kΩ"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3695,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3704,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3713,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3722,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3731,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3740,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 55.88 93.98 0)
+			(at 97.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,74 +3764,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 55.88 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d37e398-0d37-4a32-a5c8-2ea2b24212e0")
-		(property "Reference" "#PWR0102"
-			(at 55.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 55.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 55.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7891dfed-309c-4a46-ae41-c38c5bf4b19e")
-		)
-		(instances
-			(project "IREC2025_FlightComputer"
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 109.22 129.54 0)
+		(at 123.19 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3664,7 +3774,7 @@
 		(fields_autoplaced yes)
 		(uuid "3324fbeb-2d75-46cc-b0b8-f7fea9bb1c7d")
 		(property "Reference" "#PWR0106"
-			(at 109.22 135.89 0)
+			(at 123.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 134.62 0)
+			(at 123.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 129.54 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 129.54 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 129.54 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,142 +4118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 92.71 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "597e6828-e03a-4a0c-9a7b-6ba116971cf5")
-		(property "Reference" "BT1"
-			(at 96.52 117.5384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 96.52 120.0784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
-			(at 92.71 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2f6fc59-83e6-4c9b-9b11-888ac25ca93d")
-		)
-		(pin "1"
-			(uuid "efece7f3-9489-4bb8-8465-2c149f2b7957")
-		)
-		(instances
-			(project ""
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59ee63e4-8cc5-48c7-93b9-cfac8d31d99d")
-		(property "Reference" "#PWR0104"
-			(at 55.88 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7443bc8-f239-4ad6-912e-37b1ce6ed360")
-		)
-		(instances
-			(project "IREC2025_FlightComputer"
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,3.3kΩ")
 		(at 92.71 100.33 0)
 		(unit 1)
@@ -4368,7 +4342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 129.54 0)
+		(at 92.71 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4377,7 +4351,7 @@
 		(fields_autoplaced yes)
 		(uuid "74424581-7fa9-4bb0-9299-4ebc87ab50cd")
 		(property "Reference" "#PWR0105"
-			(at 92.71 135.89 0)
+			(at 92.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 134.62 0)
+			(at 92.71 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 129.54 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 129.54 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 129.54 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4629,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 109.22 119.38 0)
+		(at 123.19 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4664,7 +4638,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac790742-883b-4ab7-a29d-ef2d3cbf5e04")
 		(property "Reference" "C71"
-			(at 111.76 116.8399 0)
+			(at 125.73 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4647,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 111.76 119.38 0)
+			(at 125.73 119.38 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4682,7 +4656,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 107.442 119.38 90)
+			(at 121.412 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4665,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4674,7 @@
 			)
 		)
 		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4683,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4692,7 @@
 			)
 		)
 		(property "Stock" "4952869"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4701,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4710,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4719,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4728,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4737,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4746,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4755,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4764,7 @@
 			)
 		)
 		(property "Part" "CL05A105KA5NQNC"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4773,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 111.76 121.92 0)
+			(at 125.73 121.92 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4808,7 +4782,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4791,7 @@
 			)
 		)
 		(property "Capacitance" "1uF"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +4800,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 109.22 119.38 0)
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5322,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:HS-0402-UR")
-		(at 55.88 104.14 90)
+		(at 102.87 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5357,25 +5331,25 @@
 		(fields_autoplaced yes)
 		(uuid "d5fece2a-d4cb-458c-b61f-8833e9df8b98")
 		(property "Reference" "LED2"
-			(at 58.42 103.6299 90)
+			(at 105.41 122.045 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "HS-0402-UR"
-			(at 58.42 106.1699 90)
+			(at 105.41 123.315 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED0402-R-RD"
-			(at 63.5 104.14 0)
+			(at 110.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 104.14 0)
+			(at 102.87 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 104.14 0)
+			(at 102.87 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5376,7 @@
 			)
 		)
 		(property "LCSC Part" "C1322304"
-			(at 66.04 104.14 0)
+			(at 113.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,6 +5460,219 @@
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery3V_holder:3098")
+		(at 92.71 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6cfcfc3-2716-44f2-9e27-8aeb83a81b7c")
+		(property "Reference" "BT1"
+			(at 87.376 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3098"
+			(at 89.154 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GNSS:BAT_3098"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.18mm"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/3098/Keystone/view-part/?ref=eda"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "K"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3098/Keystone/view-part/?ref=snap"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "3098"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=371074&manufacturer=Keystone Electronics&part_name=3098&search_term=None"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            SMT Holder for 6.8mm Cell-Matte Tin Plate | Keystone Electronics 3098\n                        \n"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "2998"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P1"
+			(uuid "3888a232-3d15-4195-ad98-a662956c8936")
+		)
+		(pin "N"
+			(uuid "aeb64f6b-9516-4f02-afce-c56cd7432248")
+		)
+		(pin "P2"
+			(uuid "7ae8669f-c7ff-4401-a27b-5e02650d236f")
+		)
+		(instances
+			(project "IREC2025_FlightComputer"
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
