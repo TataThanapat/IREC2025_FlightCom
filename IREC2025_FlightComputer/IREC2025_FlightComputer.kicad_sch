@@ -4917,6 +4917,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:XFL4020-472MEC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XFL4020-472MEC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:IND-SMD_L4.0-W4.0_XFL4020-102MEB"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5156236"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XFL4020-472MEC_0_1"
+				(arc
+					(start -4.06 -0.01)
+					(mid -2.83 0.99)
+					(end -2.03 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 -0.01)
+					(mid -0.8 0.99)
+					(end 0 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.01)
+					(mid 1.23 0.99)
+					(end 2.03 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 -0.01)
+					(mid 3.26 0.99)
+					(end 4.06 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32U5:STM32U575VGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10383,304 +10527,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.175)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Inductors:2.2uH,50mA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 1.2673 0.834 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2.2uH,50mA"
-				(at 1.2673 -1.2122 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:L_0805"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302231101_FH--Guangdong-Fenghua-Advanced-Tech-CMI201209U2R2KT_C1043.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50mA 2.2uH ±10% 600mΩ 0805 Inductors (SMD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C1043"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "84746"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.011USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Preferred Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Inductors/Coils/Transformers,Inductors (SMD)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "CMI201209U2R2KT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Inductance" "2.2uH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Q @ Freq" "35@10MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Frequency - Self Resonant" "50MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rated Current" "50mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DC Resistance (DCR)" "600mΩ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2.2uH,50mA_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.2uH,50mA_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -16307,16 +16153,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 142.24) (xy 173.99 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e60d214-7d4e-4cfc-ab1f-d66361a2d1e7")
-	)
-	(wire
-		(pts
 			(xy 132.08 102.87) (xy 132.08 97.79)
 		)
 		(stroke
@@ -16564,6 +16400,16 @@
 			(type default)
 		)
 		(uuid "613cccc5-a9d0-4bd7-9cf2-86ae75f4f722")
+	)
+	(wire
+		(pts
+			(xy 157.48 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641ce2c9-4761-47e2-b98b-3e3a3249d4ee")
 	)
 	(wire
 		(pts
@@ -17547,6 +17393,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 142.24) (xy 175.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c1b1e3-acd4-4fe3-9e8a-53ade8256da5")
+	)
+	(wire
+		(pts
 			(xy 229.87 27.94) (xy 229.87 33.02)
 		)
 		(stroke
@@ -18054,16 +17910,6 @@
 			(type default)
 		)
 		(uuid "d7a36ac2-6e0c-4ec3-b1f3-9e13276a69f6")
-	)
-	(wire
-		(pts
-			(xy 157.48 142.24) (xy 166.37 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db55a3d6-8938-4d63-8de0-585656c8162f")
 	)
 	(wire
 		(pts
@@ -18651,6 +18497,28 @@
 			)
 		)
 	)
+	(global_label "BMI_GYRO_INT2"
+		(shape output)
+		(at 57.15 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04eaad90-5fb1-4976-aeb3-86d1d636b88a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.8319 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape bidirectional)
 		(at 142.24 81.28 180)
@@ -18675,7 +18543,7 @@
 	)
 	(global_label "COMPANION_RX"
 		(shape input)
-		(at 102.87 137.16 0)
+		(at 102.87 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18685,7 +18553,7 @@
 		)
 		(uuid "08aa6b30-8cc0-4b51-a5e9-20c29eb4b539")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.3091 137.16 0)
+			(at 120.3091 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19179,6 +19047,28 @@
 			)
 		)
 	)
+	(global_label "TMP_SCL"
+		(shape bidirectional)
+		(at 102.87 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48ac4f4e-595f-44a9-9d6b-37662b05470c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.1307 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 270.51 128.27 180)
@@ -19197,6 +19087,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMP_SDA"
+		(shape bidirectional)
+		(at 102.87 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cc1e44b-3c3d-4ee8-bcfb-5a7222512bfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.1912 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19269,7 +19181,7 @@
 	)
 	(global_label "COMPANION_TX"
 		(shape output)
-		(at 102.87 134.62 0)
+		(at 102.87 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19279,7 +19191,7 @@
 		)
 		(uuid "5c858d27-1c24-42f7-975f-f3cb6f679570")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.0067 134.62 0)
+			(at 120.0067 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19665,7 +19577,7 @@
 	)
 	(global_label "BMI_accel_INT1"
 		(shape bidirectional)
-		(at 57.15 111.76 180)
+		(at 57.15 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19675,7 +19587,7 @@
 		)
 		(uuid "8c37fee1-4f09-4504-8518-04842eb1bad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.5997 111.76 0)
+			(at 38.5997 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20191,6 +20103,28 @@
 			)
 		)
 	)
+	(global_label "MMC_SCL"
+		(shape bidirectional)
+		(at 57.15 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dafa21ea-a6e6-40b6-b598-21bd5f60a304")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4055 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT+"
 		(shape input)
 		(at 218.44 180.34 0)
@@ -20323,6 +20257,28 @@
 			)
 		)
 	)
+	(global_label "MMC_SDA"
+		(shape bidirectional)
+		(at 57.15 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f015990b-7d92-42b8-a355-3f911ae3580a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.345 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PYRO_B"
 		(shape input)
 		(at 157.48 205.74 180)
@@ -20369,7 +20325,7 @@
 	)
 	(global_label "BMI_accel_CS"
 		(shape output)
-		(at 57.15 109.22 180)
+		(at 57.15 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20379,7 +20335,7 @@
 		)
 		(uuid "f78efcd4-4c8a-4ef5-b8e1-9698b4db851f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.3439 109.22 0)
+			(at 41.3439 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23613,6 +23569,83 @@
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:XFL4020-472MEC")
+		(at 166.37 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c96e8b7-3214-45fb-8883-b7b3b9857c46")
+		(property "Reference" "L1"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "2.2uH,50mA"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:IND-SMD_L4.0-W4.0_XFL4020-102MEB"
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5156236"
+			(at 166.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80b97350-a9b4-4964-b30e-14c6c9a89cb5")
+		)
+		(pin "2"
+			(uuid "7ff73138-f3d0-48d9-a073-7d0779fb62ec")
+		)
+		(instances
+			(project ""
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -27003,7 +27036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMA_L4.4-W2.6-LS5.0-RD"
+		(property "Footprint" "GNSS:DIOM7959X262N"
 			(at 294.64 96.52 0)
 			(effects
 				(font
@@ -29079,218 +29112,6 @@
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Inductors:2.2uH,50mA")
-		(at 170.18 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acc31997-eae7-4478-926d-58533035d2be")
-		(property "Reference" "L1"
-			(at 170.18 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2uH,50mA"
-			(at 170.18 139.7 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:L_0805"
-			(at 170.18 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302231101_FH--Guangdong-Fenghua-Advanced-Tech-CMI201209U2R2KT_C1043.pdf"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA 2.2uH ±10% 600mΩ 0805 Inductors (SMD) ROHS"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1043"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "84746"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.011USD"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors/Coils/Transformers,Inductors (SMD)"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CMI201209U2R2KT"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Inductance" "2.2uH"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Q @ Freq" "35@10MHz"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Frequency - Self Resonant" "50MHz"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" "50mA"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DC Resistance (DCR)" "600mΩ"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca9253ee-771e-4151-a4d0-222380a12cef")
-		)
-		(pin "2"
-			(uuid "8b121992-1a3b-46fb-ba7e-6a901f8a3c00")
-		)
-		(instances
-			(project ""
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
-					(reference "L1")
 					(unit 1)
 				)
 			)
