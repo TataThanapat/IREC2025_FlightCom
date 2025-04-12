@@ -1,4 +1,4 @@
-25010841181151011
+25030017300400068
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,6 +55229,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Cuharlogo
+CUHARLOGOMOD
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -57260,6 +57267,13 @@ ANT-SMD_UFL-R-SMT-1-10
 3
 3
 EasyEDA
+BGA-153_L13.0-W11.5-P0.50-TL_KLM8G1GEME-B041
+
+
+0
+153
+153
+EasyEDA
 C0402
 
 
@@ -57274,6 +57288,13 @@ CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-R-RD
 2
 2
 EasyEDA
+CAP-SMD_L3.2-W1.6
+
+
+0
+2
+2
+EasyEDA
 FBGA-153_L11.0-W10.0-P0.50_KLM4G1FETE-B041
 
 
@@ -57281,7 +57302,28 @@ FBGA-153_L11.0-W10.0-P0.50_KLM4G1FETE-B041
 153
 153
 EasyEDA
+FBGA-153_L13.0-W11.5-P0.50_KLMAG1JETD-B041
+
+
+0
+153
+153
+EasyEDA
+IND-SMD_L4.0-W4.0_XFL4020-102MEB
+
+
+0
+2
+2
+EasyEDA
 L0603
+
+
+0
+2
+2
+EasyEDA
+L0805
 
 
 0
@@ -57364,6 +57406,13 @@ SENSOR-SMD_MS560702BA03-50
 0
 8
 8
+EasyEDA
+SMA-TH_SMA-KHDB_C9900020423
+
+
+0
+5
+5
 EasyEDA
 SMA_L4.4-W2.6-LS5.0-RD
 
@@ -58484,6 +58533,27 @@ Connector
 0
 2
 2
+GNSS
+BAT_3098
+
+
+0
+3
+3
+GNSS
+DIOM7959X262N
+SS34
+Schottky Diode
+0
+2
+2
+GNSS
+NiceRF1262
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -90012,6 +90082,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RFshielddd
+MS233-20
+
+
+0
+4
+1
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf

@@ -3249,6 +3249,76 @@
 		)
 		(uuid "057defd9-ae6d-4eb1-96d1-f77b49d2c8f8")
 	)
+	(text "	\nERJ-2RKF2201X"
+		(exclude_from_sim no)
+		(at 167.64 93.472 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "2883c68e-772d-4892-84e7-64b958f9039f")
+	)
+	(text "CL21B106KOQNNNE"
+		(exclude_from_sim no)
+		(at 235.204 57.912 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "2e832ce6-f122-4d02-9475-9d27ebbe78a1")
+	)
+	(text "GRM155R71H104KE14D"
+		(exclude_from_sim no)
+		(at 116.078 112.014 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "4c16c06e-1ffa-449e-a35e-ca1a17d3a8db")
+	)
+	(text "GRM155R71H104KE14D"
+		(exclude_from_sim no)
+		(at 230.886 106.68 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "5673532c-c4b0-44ce-a4e0-ba6b96dcc93b")
+	)
+	(text "RC0402JR-074K7L"
+		(exclude_from_sim no)
+		(at 236.22 33.782 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "7e8d5ff9-0d28-4552-909d-463f6178d05f")
+	)
+	(text "RC0402JR-074K7L"
+		(exclude_from_sim no)
+		(at 169.926 37.592 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "80f2514c-5b8f-477f-b424-d4d1c3c95917")
+	)
+	(text "GRM155R70J105KA12D"
+		(exclude_from_sim no)
+		(at 163.83 48.26 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "81ce8719-393b-4de1-ae8f-a0754fa533bb")
+	)
 	(text "TMP275 I2C"
 		(exclude_from_sim no)
 		(at 152.654 73.914 0)
@@ -3269,6 +3339,16 @@
 		)
 		(uuid "ad0dd50d-6323-4888-99ca-507684a80050")
 	)
+	(text "	\nERJ-2RKF2201X"
+		(exclude_from_sim no)
+		(at 176.784 93.472 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "b3f0030a-01d4-4ac1-928a-f599a7188f38")
+	)
 	(text "MMC5983MA Magnetometer I2C"
 		(exclude_from_sim no)
 		(at 162.56 16.764 0)
@@ -3278,6 +3358,46 @@
 			)
 		)
 		(uuid "b73d1057-89f2-4e64-ba51-d737b849eb88")
+	)
+	(text "CL21B106KOQNNNE"
+		(exclude_from_sim no)
+		(at 31.242 47.498 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "c0cdeaa3-1fb4-4ae1-bc27-3659fbe8e77b")
+	)
+	(text "GRM155R71H104KE14D"
+		(exclude_from_sim no)
+		(at 49.276 155.448 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "c387c586-dbbb-4048-86ca-83012c5ab79e")
+	)
+	(text "GRM155R71H104KE14D"
+		(exclude_from_sim no)
+		(at 42.926 47.498 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "ca39d81c-07f3-4431-b09f-9fc8c17a32ee")
+	)
+	(text "GRM155R71H104KE14D"
+		(exclude_from_sim no)
+		(at 34.29 109.982 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "e64d8918-df2f-4961-99ee-d42d3851756b")
 	)
 	(text "ADXL375BCCZ-RL7 (High-G) SPI (Dedicated bus)"
 		(exclude_from_sim no)
@@ -3298,6 +3418,16 @@
 			)
 		)
 		(uuid "f8226fa2-90c6-4d28-941b-882e96095d19")
+	)
+	(text "GRM155R71H104KE14D"
+		(exclude_from_sim no)
+		(at 37.592 34.798 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "ffe6c713-2e0c-4e4b-ac95-773de53444d1")
 	)
 	(text_box "SPI1: SX1262 LoRa\nSPI2: ADXL375BCCZ-RL7\nSPI3: BMI088 and MS5207"
 		(exclude_from_sim no)
@@ -3396,6 +3526,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b649173-c0bb-488a-9192-a88c37657360")
+	)
+	(junction
+		(at 44.45 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d4c351a-cfe4-41e0-819d-768032ed41ec")
 	)
 	(junction
 		(at 175.26 35.56)
@@ -3895,6 +4031,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 101.6) (xy 46.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464fdc00-4fc3-4cd2-9766-ba487ed9e6cc")
+	)
+	(wire
+		(pts
 			(xy 60.96 182.88) (xy 36.83 182.88)
 		)
 		(stroke
@@ -4165,6 +4311,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 101.6) (xy 44.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7077054c-44ec-47d3-894f-dec8d94168e9")
+	)
+	(wire
+		(pts
 			(xy 90.17 99.06) (xy 113.03 99.06)
 		)
 		(stroke
@@ -4255,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 104.14) (xy 44.45 96.52)
+			(xy 44.45 104.14) (xy 44.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5892,6 +6048,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -6633,6 +6790,7 @@
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -6990,6 +7148,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -7248,6 +7407,7 @@
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -7642,6 +7802,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -9238,6 +9399,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -9686,6 +9848,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -10127,6 +10290,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
