@@ -24255,7 +24255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "516de0f7-45eb-4263-9904-6fb838cf6b91")
-		(property "Reference" "U4"
+		(property "Reference" "D5"
 			(at 238.76 138.43 0)
 			(effects
 				(font
@@ -24316,7 +24316,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
-					(reference "U4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -32804,7 +32804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d32db1e4-532c-49cc-9f33-ee2449492638")
-		(property "Reference" "U2"
+		(property "Reference" "D4"
 			(at 238.76 126.492 0)
 			(effects
 				(font
@@ -32865,7 +32865,7 @@
 		(instances
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
-					(reference "U2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
