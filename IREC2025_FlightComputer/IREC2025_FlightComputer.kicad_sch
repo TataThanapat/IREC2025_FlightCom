@@ -13981,7 +13981,7 @@
 	)
 	(text "Pyro_CH2  (EAGLE)"
 		(exclude_from_sim no)
-		(at 39.878 214.63 0)
+		(at 43.688 214.122 0)
 		(effects
 			(font
 				(size 0.889 0.889)

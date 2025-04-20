@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.2672,
         0.3,
         0.342392,
         0.4,
@@ -511,10 +512,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/User/Desktop/TATAGBR/",
+      "plot": "C:/Users/User/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Desktop/FLIGHTCOMSTEP.step",
+      "step": "../../../../Desktop/FLIGHTCOMSTEP2.step",
       "svg": "",
       "vrml": ""
     },
