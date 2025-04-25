@@ -3275,7 +3275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1317ae3f-5366-417a-a9c7-aa7fd260d2d7")
-		(property "Reference" "D6"
+		(property "Reference" "D?"
 			(at 95.25 91.7574 90)
 			(effects
 				(font
@@ -3329,15 +3329,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "74418d0d-94f5-4c36-a893-dd011ca728e0")
+			(uuid "a93db146-2672-4b14-b11f-48331ff79797")
 		)
 		(pin "2"
-			(uuid "4bf47fbb-3a10-46be-8385-71500350ae76")
+			(uuid "031a594c-9ad0-4439-9661-440a6acc53ad")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "D6")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3398,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d450b2ee-d767-4d80-ad7b-1bdcf137fa62")
+			(uuid "03ebe992-138e-48c5-b1f0-ba1e303c65fa")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -3419,7 +3419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18603d19-bdd6-48d6-83a8-d759c8312aab")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR?"
 			(at 30.48 116.84 0)
 			(effects
 				(font
@@ -3464,12 +3464,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "11ac8246-43c6-4486-8d36-4eebb68064e8")
+			(uuid "85d31fb1-0bf3-4896-9b31-660a1aabfb8f")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "#PWR0103")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3683,10 +3683,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8309bfb5-a014-488e-a578-7ae85ab85fc1")
+			(uuid "3e957ae0-e995-49b5-839c-b7555ad9b008")
 		)
 		(pin "2"
-			(uuid "ed145b82-d283-4158-8741-daf85886aff1")
+			(uuid "28a013c6-f460-45c1-9d65-b5a6a0c578c5")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -3752,7 +3752,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cfae100-e9ce-4745-b6bf-ab92261b17df")
+			(uuid "347fa563-e0ae-41a8-aff5-438543353338")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -3818,7 +3818,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7e48b96-f92f-4612-b4b7-b3fef74e50ca")
+			(uuid "d88f1e0f-a836-4423-963b-4c798734054e")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4323af82-b0b7-4b18-b044-8ffbe13a113b")
+			(uuid "8ccd0684-39ea-479e-b031-da7708bdafb2")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -3904,7 +3904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52c46640-c115-4d7d-a10b-7ffb1f708a79")
-		(property "Reference" "R35"
+		(property "Reference" "R?"
 			(at 28.194 95.758 90)
 			(effects
 				(font
@@ -4103,15 +4103,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0d99400-020a-4fc9-83da-32c0c3e2707a")
+			(uuid "6d115d6e-ef49-4601-831c-119fb9022ee6")
 		)
 		(pin "2"
-			(uuid "967fc949-0db3-4ca6-9571-6326ec93c580")
+			(uuid "e268186d-7afb-4205-858c-bb1353bc372f")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "R35")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4127,7 +4127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7077fec2-d8e7-408a-a0d7-1f1aed32dd1f")
-		(property "Reference" "R37"
+		(property "Reference" "R?"
 			(at 95.25 100.3299 0)
 			(effects
 				(font
@@ -4326,15 +4326,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5976c565-f892-4299-bb07-3f270e696979")
+			(uuid "8dcd6007-3d78-4962-8e8c-714ded82323c")
 		)
 		(pin "2"
-			(uuid "8ab03f31-32dc-4c9f-a43f-8fed562f99dc")
+			(uuid "4c4ee27b-1682-488e-beae-74a3f8525df9")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "R37")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4395,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "67edbb3e-38a8-4696-9f6e-02019934ab0d")
+			(uuid "c9225712-1cfb-43f7-ba1a-baa312838928")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -4613,10 +4613,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe1b3df3-366b-4ea0-bf19-a32de370b73f")
+			(uuid "767419e1-c8f9-4dc6-b574-b1b23fa8cb55")
 		)
 		(pin "2"
-			(uuid "a849626a-86df-4a31-84b3-1c422c0c5f78")
+			(uuid "2590d54e-d934-4bd1-859b-7833db284396")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -4637,7 +4637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac790742-883b-4ab7-a29d-ef2d3cbf5e04")
-		(property "Reference" "C71"
+		(property "Reference" "C?"
 			(at 125.73 116.8399 0)
 			(effects
 				(font
@@ -4809,15 +4809,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "00d9463e-0ad1-4f7f-a885-15fadd1d2f51")
+			(uuid "38a3cb02-7710-4679-8614-03f4088933a0")
 		)
 		(pin "1"
-			(uuid "8177efb7-1e40-4364-a929-0166fc0445a4")
+			(uuid "8f4ae3b9-c0a3-4128-90b6-3b100aaeefff")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "C71")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af1ca6c7-6b0c-42ae-9483-2e58930892bf")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR?"
 			(at 41.91 69.85 0)
 			(effects
 				(font
@@ -4878,12 +4878,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbe86976-a4b7-4097-a9a7-7da953f58fd6")
+			(uuid "e9e3dd40-815c-49df-9c4a-bbf1977cd220")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "#PWR099")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b65d9945-c739-4a17-adce-e2a7f9a3b83b")
-		(property "Reference" "R33"
+		(property "Reference" "R?"
 			(at 100.33 44.958 90)
 			(effects
 				(font
@@ -5096,15 +5096,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "98221776-f5b3-45c3-af62-82dffc229a55")
+			(uuid "0041d478-4843-46ee-920b-b8f9cb5431ea")
 		)
 		(pin "2"
-			(uuid "20f4fe52-f9af-45a0-98f3-2cdfea473ebf")
+			(uuid "9664c3a2-6706-4b0e-abfb-d000f825a909")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "R33")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5120,7 +5120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc68c06a-9922-42af-940c-550d399a5055")
-		(property "Reference" "LED1"
+		(property "Reference" "LED?"
 			(at 33.02 103.6299 90)
 			(effects
 				(font
@@ -5175,15 +5175,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e515d1cb-ce10-4c92-8c40-15331a74c6f4")
+			(uuid "4e99f00a-b107-4ca8-98d3-6ad3bb2cc7c9")
 		)
 		(pin "1"
-			(uuid "40aa3cab-da7e-4550-9c40-81046a23a317")
+			(uuid "b7afddc7-4fd9-4deb-9071-e7f824472e68")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "LED1")
+					(reference "LED?")
 					(unit 1)
 				)
 			)
@@ -5199,7 +5199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07c84d9-1755-4047-8f14-2d4fa70d84bf")
-		(property "Reference" "U18"
+		(property "Reference" "U?"
 			(at 67.31 24.13 0)
 			(effects
 				(font
@@ -5252,69 +5252,69 @@
 			)
 		)
 		(pin "6"
-			(uuid "db3ce6e2-cb2e-4c8a-8106-bce9f380d38a")
+			(uuid "a5ce825e-6f5c-4236-b470-1ff3658a9e3c")
 		)
 		(pin "2"
-			(uuid "822817ba-8e88-488e-bb53-062891b9095e")
+			(uuid "cdb29415-bce8-4c01-a177-7cc88bcee8ba")
 		)
 		(pin "4"
-			(uuid "dba25f14-12b6-4839-a272-1bd5b8eb60b2")
+			(uuid "f5045bdd-2eda-4e6e-8691-ff02c05de407")
 		)
 		(pin "1"
-			(uuid "357954fc-9c16-4680-b929-ffd8a230c0f3")
+			(uuid "0e3799bd-e8a4-419b-b5b2-5e618206559a")
 		)
 		(pin "3"
-			(uuid "16bcbc05-9d4a-4890-acd9-d595e2af6fdd")
+			(uuid "7a481124-a8b7-4404-b7f1-5510bbac8853")
 		)
 		(pin "5"
-			(uuid "935d2c6f-440c-4770-9e9f-ad4f15ad549c")
+			(uuid "115997b2-c509-45bf-8ffd-0cd9f3f5851c")
 		)
 		(pin "20"
-			(uuid "a8341f0c-8f82-4174-aeeb-05eaf10e27ad")
+			(uuid "bba83f85-66f0-42ec-896e-6e897e058ad6")
 		)
 		(pin "16"
-			(uuid "91fadfc1-8b02-4fb0-8c74-39bb9a6f48cd")
+			(uuid "2428f9d7-5103-4626-a8f8-00926ae5b830")
 		)
 		(pin "15"
-			(uuid "bf81523e-12b7-478b-84d4-ed6939c1fecf")
+			(uuid "1b05ca48-1492-4c3f-a197-b6f8cc81a0fe")
 		)
 		(pin "12"
-			(uuid "a4b483a1-baa9-49d4-a599-1c4c80ffc613")
+			(uuid "8c848c1a-4b35-4c92-aed9-d36436af6d46")
 		)
 		(pin "9"
-			(uuid "2e1ed168-e85f-43e4-b2c5-aedfa5d9d838")
+			(uuid "bef3b979-1b40-4f8c-ab79-2012026570f6")
 		)
 		(pin "18"
-			(uuid "7175de31-ec40-48a5-b96b-3765e9069c68")
+			(uuid "12e5d3bf-4b3f-46cf-9c47-cef61c14d795")
 		)
 		(pin "10"
-			(uuid "6386ace2-5b37-4983-85c8-dbf7746d0bb4")
+			(uuid "e1c675f4-3b16-4dbc-b3fd-a44c5614d96b")
 		)
 		(pin "17"
-			(uuid "e7b276b3-8f67-4d52-94cb-ad69349b72b1")
+			(uuid "0d001bfc-87c3-44cd-a51c-55e76457f29c")
 		)
 		(pin "8"
-			(uuid "1c5d64fa-55db-45cf-b939-4e0739378696")
+			(uuid "81f9d78e-fb10-45fd-8d04-581508d814fe")
 		)
 		(pin "19"
-			(uuid "7314a7bf-8662-4162-b7d5-e5795f8cd154")
+			(uuid "54115a8d-12db-4f69-87f8-da0df6cbbc26")
 		)
 		(pin "7"
-			(uuid "8b0bf92c-a3f7-4b9d-bc92-2b78fc332020")
+			(uuid "87efec0f-b166-49e8-a8e9-263fd35de7ba")
 		)
 		(pin "11"
-			(uuid "64144004-b66e-426a-a7d2-12e2c2ec7dcc")
+			(uuid "45c02af1-6b18-4bd9-9e04-76771b5ef166")
 		)
 		(pin "14"
-			(uuid "e40fe31e-ad6e-4bb1-8a6b-65559f2eb296")
+			(uuid "0fec81f8-dd97-48c3-9772-244e18be361e")
 		)
 		(pin "13"
-			(uuid "aa19e785-4bf4-45eb-8bac-dfe761ba505d")
+			(uuid "247cff03-87c8-4c21-ad0a-726a8b660a32")
 		)
 		(instances
-			(project ""
+			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/405b4b98-de6a-459e-bdcd-313bf0eeb515"
-					(reference "U18")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -5385,10 +5385,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c0c370de-df97-4da3-8ca9-2e17128d360e")
+			(uuid "12ca2033-8bb3-4a17-8c1f-01dbb1ec87ff")
 		)
 		(pin "1"
-			(uuid "b86bb9db-0686-4f56-9006-78eeb09a0c8f")
+			(uuid "e23277e0-ac8b-4923-972e-d9c8481ee77c")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -5595,13 +5595,13 @@
 			)
 		)
 		(pin "P1"
-			(uuid "3888a232-3d15-4195-ad98-a662956c8936")
+			(uuid "8107e9f4-c3f0-4d1e-89af-a91e4865e38f")
 		)
 		(pin "N"
-			(uuid "aeb64f6b-9516-4f02-afce-c56cd7432248")
+			(uuid "caeb8d3b-51b0-4e25-9abb-13846db5adbe")
 		)
 		(pin "P2"
-			(uuid "7ae8669f-c7ff-4401-a27b-5e02650d236f")
+			(uuid "007c508d-c3da-447a-adab-416092a42bd3")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
@@ -5667,7 +5667,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5de8e6c1-ad4e-42e1-a1a8-6f7236cfec5f")
+			(uuid "bf4dc1b0-c23f-4aaf-9658-5eb68cf6fac1")
 		)
 		(instances
 			(project "IREC2025_FlightComputer"
