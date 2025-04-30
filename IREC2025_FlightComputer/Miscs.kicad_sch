@@ -4294,88 +4294,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "shieldrf:shieldrff"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "shieldrff_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "shieldrff_1_1"
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "gnd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 161.925 28.575)
@@ -4677,16 +4595,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 193.04 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dfc0f60-348b-45b6-9afa-67f1f5426afb")
-	)
-	(wire
-		(pts
 			(xy 72.39 82.55) (xy 72.39 95.25)
 		)
 		(stroke
@@ -4744,16 +4652,6 @@
 			(type default)
 		)
 		(uuid "379f7c40-a649-4c95-b698-c52eb6d68cad")
-	)
-	(wire
-		(pts
-			(xy 185.42 44.45) (xy 185.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a44271-fae2-456f-9a48-683235edacb5")
 	)
 	(wire
 		(pts
@@ -4914,16 +4812,6 @@
 			(type default)
 		)
 		(uuid "5f689310-471e-4d02-a994-9ac36ff5e194")
-	)
-	(wire
-		(pts
-			(xy 193.04 76.2) (xy 195.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b7dd07-f73e-41b6-8459-fdf52e4ba8d7")
 	)
 	(wire
 		(pts
@@ -5157,16 +5045,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 35.56) (xy 176.53 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c3849a-1960-4111-854f-dfdd92b486b1")
-	)
-	(wire
-		(pts
 			(xy 115.57 113.03) (xy 115.57 181.61)
 		)
 		(stroke
@@ -5314,16 +5192,6 @@
 			(type default)
 		)
 		(uuid "b31b3598-ce2d-4fbd-80f6-e8036b4969fa")
-	)
-	(wire
-		(pts
-			(xy 184.15 35.56) (xy 186.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b372465a-d722-47e7-aaf9-94cd39847616")
 	)
 	(wire
 		(pts
@@ -5527,6 +5395,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 48.26) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e675ef22-c46d-4953-a3b8-eb0dc01057e3")
+	)
+	(wire
+		(pts
 			(xy 77.47 125.73) (xy 67.31 125.73)
 		)
 		(stroke
@@ -5574,6 +5452,16 @@
 			(type default)
 		)
 		(uuid "fc35028f-3adf-4164-960c-c9069dc61c69")
+	)
+	(wire
+		(pts
+			(xy 173.99 35.56) (xy 186.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc79f659-034b-4360-9e21-2f7e81655dc9")
 	)
 	(wire
 		(pts
@@ -6362,7 +6250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e045db2-cf83-4a09-a362-a24e3b152e85")
-		(property "Reference" "BZ?"
+		(property "Reference" "BZ1"
 			(at 193.04 36.8299 0)
 			(effects
 				(font
@@ -6416,7 +6304,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "BZ?")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -8459,7 +8347,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,470Ω")
-		(at 180.34 35.56 90)
+		(at 185.42 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8467,16 +8355,17 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6975c50-6126-4d6c-b7cd-cae14bd412e8")
-		(property "Reference" "R?"
-			(at 180.34 31.75 90)
+		(property "Reference" "R8"
+			(at 187.96 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 180.34 35.56 90)
+			(at 185.42 44.45 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8484,8 +8373,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 180.34 37.338 90)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 187.198 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +8383,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8392,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8401,7 @@
 			)
 		)
 		(property "LCSC" "C25117"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8410,7 @@
 			)
 		)
 		(property "Stock" "591787"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +8419,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +8428,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +8437,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8446,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +8455,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,7 +8464,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +8473,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8482,7 @@
 			)
 		)
 		(property "Part" "0402WGF4700TCE"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8491,7 @@
 			)
 		)
 		(property "Resistance" "470Ω"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8500,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8509,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8518,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8527,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +8536,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8545,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 180.34 35.56 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8562,7 @@
 		(instances
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9191,72 +9080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf5c5ce8-d042-4d45-8940-7b9b01d9b7ce")
-		(property "Reference" "#PWR0118"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.738 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43a041ac-5278-499f-8deb-981e970c7b34")
-		)
-		(instances
-			(project "IREC2025_FlightComputer"
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 44.45 0)
+		(at 185.42 49.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9265,7 +9089,7 @@
 		(dnp no)
 		(uuid "d2fcbfbe-8490-4be4-8a55-c89a9e91f5ac")
 		(property "Reference" "#PWR0117"
-			(at 185.42 50.8 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.722 46.736 0)
+			(at 188.722 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 44.45 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 44.45 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 44.45 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,73 +9139,6 @@
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "shieldrf:shieldrff")
-		(at 200.66 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3c08def-0eb9-41aa-9a52-2183375f2a67")
-		(property "Reference" "U?"
-			(at 204.47 75.5649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 204.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RFshielddd:MS233-20"
-			(at 200.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af200733-ea5e-4913-b398-040862125414")
-		)
-		(instances
-			(project "IREC2025_FlightComputer"
-				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb/e5fd5176-e33b-4137-b737-1b6a7c4448a9"
-					(reference "U?")
 					(unit 1)
 				)
 			)
