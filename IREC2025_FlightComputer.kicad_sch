@@ -14415,12 +14415,6 @@
 		(uuid "10ab6759-b542-4357-bda0-2c2ba30d2d59")
 	)
 	(junction
-		(at 200.66 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13b11fa0-80f4-461e-aa5f-ba464a9de966")
-	)
-	(junction
 		(at 142.24 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14445,6 +14439,18 @@
 		(uuid "1ce2387c-7a06-49f9-90ff-8e7e67ac4c74")
 	)
 	(junction
+		(at 203.2 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2458fee8-c87b-4efd-84e6-fabbb7874973")
+	)
+	(junction
+		(at 200.66 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31062e42-f771-4ad9-bfc3-af9cc6cb2a84")
+	)
+	(junction
 		(at 203.2 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14461,12 +14467,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "380b4859-84cb-481e-9632-87a32b55c710")
-	)
-	(junction
-		(at 213.36 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d26fb58-3a1f-4a47-9fdf-a2d76925548c")
 	)
 	(junction
 		(at 22.86 40.64)
@@ -14966,13 +14966,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 203.2) (xy 213.36 205.74)
+			(xy 196.85 205.74) (xy 203.2 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05635355-df57-470b-9792-fc73c2e8a2d4")
+		(uuid "04f1e012-ee48-4fb5-b075-a08136d1b8b9")
 	)
 	(wire
 		(pts
@@ -15013,16 +15013,6 @@
 			(type default)
 		)
 		(uuid "06f92951-aebc-4098-bdd1-e9b58e022d56")
-	)
-	(wire
-		(pts
-			(xy 213.36 203.2) (xy 196.85 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081f4c36-9265-41ba-b866-fd5b7d2ffe29")
 	)
 	(wire
 		(pts
@@ -15366,16 +15356,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 205.74) (xy 196.85 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23af8732-b089-4b5d-ae66-2f4d98bb7a8a")
-	)
-	(wire
-		(pts
 			(xy 137.16 149.86) (xy 134.62 149.86)
 		)
 		(stroke
@@ -15393,6 +15373,16 @@
 			(type default)
 		)
 		(uuid "2546cd94-cdb1-45a0-9dca-218f22f4dd2b")
+	)
+	(wire
+		(pts
+			(xy 203.2 191.77) (xy 195.58 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264372e7-f28b-47d5-998d-618e5c9572c2")
 	)
 	(wire
 		(pts
@@ -15433,6 +15423,16 @@
 			(type default)
 		)
 		(uuid "2a794bd2-6565-46bb-88bd-4dd88e7af54b")
+	)
+	(wire
+		(pts
+			(xy 215.9 180.34) (xy 213.36 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5ec285-4dad-46c6-901d-4752f54a74a6")
 	)
 	(wire
 		(pts
@@ -15566,6 +15566,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 198.12) (xy 208.28 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3703a315-6351-447d-893d-13a64b78498b")
+	)
+	(wire
+		(pts
 			(xy 54.61 116.84) (xy 57.15 116.84)
 		)
 		(stroke
@@ -15626,23 +15636,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 180.34) (xy 213.36 180.34)
+			(xy 226.06 180.34) (xy 223.52 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3aae2b9c-be28-4cb0-ba1c-a38ec49733dd")
-	)
-	(wire
-		(pts
-			(xy 213.36 187.96) (xy 213.36 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc15991-ff25-4acf-8f9d-ec6be457f454")
 	)
 	(wire
 		(pts
@@ -15913,6 +15913,16 @@
 			(type default)
 		)
 		(uuid "562341c7-53a5-4c0c-86f5-9358bf73b5ed")
+	)
+	(wire
+		(pts
+			(xy 208.28 198.12) (xy 208.28 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c3f552-1032-4f83-9ead-7fad5ef5b307")
 	)
 	(wire
 		(pts
@@ -16566,16 +16576,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 187.96) (xy 200.66 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf7c37e-adb5-4c1a-bf74-10f5a1222de3")
-	)
-	(wire
-		(pts
 			(xy 316.23 140.97) (xy 316.23 147.32)
 		)
 		(stroke
@@ -16903,6 +16903,16 @@
 			(type default)
 		)
 		(uuid "a8d4a001-32df-4ed4-9a20-e87df7f29c70")
+	)
+	(wire
+		(pts
+			(xy 196.85 203.2) (xy 203.2 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9288338-f28f-4f30-83c5-d09abc034fb2")
 	)
 	(wire
 		(pts
@@ -17426,6 +17436,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 181.61) (xy 185.42 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f6c3fc-e64e-4d82-8c42-77e803ce189c")
+	)
+	(wire
+		(pts
 			(xy 229.87 41.91) (xy 234.95 41.91)
 		)
 		(stroke
@@ -17463,16 +17483,6 @@
 			(type default)
 		)
 		(uuid "ceab8a42-ba62-495d-ac23-129886e267d2")
-	)
-	(wire
-		(pts
-			(xy 200.66 187.96) (xy 200.66 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b7a4a8-c16e-4093-a559-711229a8a47c")
 	)
 	(wire
 		(pts
@@ -17523,6 +17533,16 @@
 			(type default)
 		)
 		(uuid "d57f7eab-76b8-4bbf-b28e-397ce637ef42")
+	)
+	(wire
+		(pts
+			(xy 203.2 203.2) (xy 203.2 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5831043-ad65-4dc3-a4fc-04db6d90265c")
 	)
 	(wire
 		(pts
@@ -17746,13 +17766,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 187.96) (xy 213.36 187.96)
+			(xy 203.2 205.74) (xy 203.2 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edb24cd5-3f51-463a-b6e6-526ee6b5df57")
+		(uuid "ee3ed8c5-d14f-4c1a-adf9-d60d7d535a79")
 	)
 	(wire
 		(pts
@@ -17773,16 +17793,6 @@
 			(type default)
 		)
 		(uuid "ef070da6-ed24-49b8-a67f-307f98b99fb1")
-	)
-	(wire
-		(pts
-			(xy 176.53 181.61) (xy 177.8 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efaccaac-6d22-493b-b1a0-d5fc8dabd978")
 	)
 	(wire
 		(pts
@@ -17896,6 +17906,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 191.77) (xy 195.58 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f55f18-48ae-4cde-828c-57bbecae0faa")
+	)
+	(wire
+		(pts
 			(xy 121.92 205.74) (xy 121.92 203.2)
 		)
 		(stroke
@@ -17933,6 +17953,16 @@
 			(type default)
 		)
 		(uuid "faea8d75-6713-406e-9228-4edf6787a083")
+	)
+	(wire
+		(pts
+			(xy 195.58 187.96) (xy 171.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8461d6-ad0c-4f4f-951b-66cc2d74dc0f")
 	)
 	(wire
 		(pts
@@ -18026,7 +18056,7 @@
 	)
 	(global_label "VBAT+"
 		(shape input)
-		(at 177.8 181.61 0)
+		(at 185.42 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18036,7 +18066,7 @@
 		)
 		(uuid "00a5a777-dac2-4f02-a6ac-f1c7f83bdf97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.7724 181.61 0)
+			(at 194.3924 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19962,7 +19992,7 @@
 	)
 	(global_label "VBAT+"
 		(shape input)
-		(at 218.44 180.34 0)
+		(at 226.06 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19972,7 +20002,7 @@
 		)
 		(uuid "ddcf7001-2330-4c7f-84dc-f9a8a278c56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4124 180.34 0)
+			(at 235.0324 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20358,6 +20388,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 270.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54d14c6c-36a1-4d30-b5c2-945f046ec114")
 		)
@@ -20569,6 +20607,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 307.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c29f75b-c130-4786-96ab-d4ec61bd7b21")
 		)
@@ -20650,6 +20696,309 @@
 			(project "IREC2025_FlightComputer"
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,470Ω")
+		(at 219.71 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0878b99c-63bf-4dd7-80da-39ddf08a5700")
+		(property "Reference" "R25"
+			(at 217.932 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5R"
+			(at 219.71 180.34 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "pyrolim:RES_3540_TEC"
+			(at 219.71 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "591787"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4700TCE"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "470Ω"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Resistance (DCR)" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Equivalent Series Resistance(ESR)" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency - Self Resonant" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Inductance" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Q @ Freq" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Current" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Voltage" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603JR-07470RL"
+			(at 219.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5acfdfba-91ee-4d1f-884e-9671d264cbe1")
+		)
+		(pin "2"
+			(uuid "41f55039-1972-4386-9549-c3226acc46a3")
+		)
+		(instances
+			(project "IREC2025_FlightComputer"
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -20904,6 +21253,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 283.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 283.21 101.6 0)
 			(effects
 				(font
@@ -21214,6 +21571,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0747KL"
+			(at 298.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50f1d36f-8a64-4212-a17c-cd0922c3c4ce")
 		)
@@ -21356,6 +21721,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 77.47 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 77.47 209.55 0)
 			(effects
 				(font
@@ -21759,6 +22132,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603JR-07470RL"
+			(at 127 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0595c6b7-5edc-4eb6-abc9-465445a1705f")
 		)
@@ -21900,6 +22281,309 @@
 			(project ""
 				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,470Ω")
+		(at 180.34 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f97d4cb-be95-4164-b02f-7e3131169eb0")
+		(property "Reference" "R23"
+			(at 178.562 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5R"
+			(at 180.34 181.61 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "pyrolim:RES_3540_TEC"
+			(at 180.34 179.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "591787"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4700TCE"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "470Ω"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Resistance (DCR)" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Equivalent Series Resistance(ESR)" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency - Self Resonant" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Inductance" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Q @ Freq" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Current" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Voltage" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603JR-07470RL"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1a7fbbc-5b3b-40cd-b5e9-62ecb3b3c358")
+		)
+		(pin "2"
+			(uuid "46e36aba-a693-4e3a-9631-ec3d777c5648")
+		)
+		(instances
+			(project "IREC2025_FlightComputer"
+				(path "/d402aac1-6798-4745-a2ce-fc3f8e4c9afb"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -22390,6 +23074,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603JR-07470RL"
+			(at 121.92 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39627944-caad-41bf-bf3b-18f02be783bc")
 		)
@@ -22531,6 +23223,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 369.57 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b430556-e33b-49b2-9b54-52d1c4ed263b")
 		)
@@ -22661,6 +23361,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 247.65 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 247.65 201.93 0)
 			(effects
 				(font
@@ -23018,6 +23726,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "dcdccd4f-e4e6-4f00-8da2-424db2b72ae1")
 		)
@@ -23304,6 +24020,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "CL10A475MO8NNNC"
 			(at 50.8 156.21 0)
 			(effects
 				(font
@@ -23678,6 +24402,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-075K1L"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b39dfcaa-2d14-4c5d-a2ef-f9cd2de066c7")
 		)
@@ -23828,6 +24560,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -24255,6 +24995,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10C3R3CB81PNC"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55bdf61a-87bc-46e9-9d39-442f83e0b3c2")
 		)
@@ -24543,6 +25291,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "T55A107M007C0070"
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99923a60-f587-497f-af01-4679ce589035")
 		)
@@ -24775,6 +25531,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 363.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15606751-8fb5-4a6f-a195-962bfd76e7ca")
 		)
@@ -24909,6 +25673,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 368.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 368.3 167.64 0)
 			(effects
 				(font
@@ -25248,6 +26020,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1df398b0-69a0-4137-af65-5f5213043c48")
 		)
@@ -25521,6 +26301,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 238.76 135.89 0)
 			(effects
 				(font
@@ -25888,6 +26676,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603JR-07470RL"
+			(at 137.16 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8d12828-2b6b-4ca0-b12e-b37b8ba9338f")
 		)
@@ -26037,6 +26833,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "T55A107M007C0070"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -26242,6 +27046,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 166.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 166.37 187.96 0)
 			(effects
 				(font
@@ -26536,6 +27348,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 363.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603JR-071KL"
 			(at 363.22 106.68 0)
 			(effects
 				(font
@@ -26845,6 +27665,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RMCF0603JT3K30"
+			(at 171.45 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c1e9d914-f2b8-428c-8b5a-4c95f5e4dcdf")
 		)
@@ -27139,6 +27967,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603JR-071KL"
+			(at 254 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a00f15b-0bbf-4097-8e6c-e980f4382266")
 		)
@@ -27274,6 +28110,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 147.32 147.32 0)
 			(effects
 				(font
@@ -27760,6 +28604,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RMCF0603JT3K30"
+			(at 163.83 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62dc3f7f-15dc-416c-aab8-19066214a777")
 		)
@@ -28099,6 +28951,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A226MP8NUNE"
+			(at 170.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7135aba4-643f-494f-aba7-e4d175fb31f4")
 		)
@@ -28327,6 +29187,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Digikey Parts" "CRCW251220R0FKEG"
+			(at 314.96 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -28763,6 +29631,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-07100KL"
+			(at 171.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f54f0795-bff8-4868-a658-f1315f064f22")
 		)
@@ -28911,6 +29787,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 294.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84ee6534-03bc-451a-bae3-ea5b2a7f8851")
 		)
@@ -29045,6 +29929,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 368.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 368.3 146.05 0)
 			(effects
 				(font
@@ -29351,6 +30243,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" " RC0603FR-0710KL"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5cc6a3e-dbb9-4ea3-99f0-80c75beb09f7")
 		)
@@ -29484,6 +30384,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 267.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 267.97 135.89 0)
 			(effects
 				(font
@@ -29840,6 +30748,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 287.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89c056ad-dfa7-448e-b38d-95e97d33a929")
 		)
@@ -29974,6 +30890,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 368.3 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 368.3 191.77 0)
 			(effects
 				(font
@@ -30321,6 +31245,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 308.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9756e61e-d24e-4e73-bcc6-f85d8971d5fd")
 		)
@@ -30546,6 +31478,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 254 251.46 0)
 			(effects
 				(font
@@ -30830,6 +31770,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9bb0c7ad-45df-4f0a-ae0b-8beab789e797")
 		)
@@ -31100,6 +32048,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 203.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
 			(at 203.2 38.1 0)
 			(effects
 				(font
@@ -31384,6 +32340,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B105KO8NNNC"
+			(at 280.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e97d4a98-1ed3-445f-9f70-63b8846fac98")
 		)
@@ -31646,6 +32610,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 133.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -32024,6 +32996,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" " RC0603FR-0710KL"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07b9af8c-a69c-4b1b-ae70-45826ef8adbd")
 		)
@@ -32293,6 +33273,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B105KO8NNNC"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d5a22c0-0cf3-4198-a736-760424186bb4")
 		)
@@ -32435,6 +33423,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 224.79 83.82 0)
 			(effects
 				(font
@@ -32590,6 +33586,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 80.01 104.14 0)
 			(effects
 				(font
@@ -33160,6 +34164,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3edadcca-98a5-4e95-811f-55584bfbea16")
 		)
@@ -33561,6 +34573,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B105KO8NNNC"
+			(at 210.82 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9b558b2-fc7e-4c94-bce2-1213e4d1acde")
 		)
@@ -33908,6 +34928,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 186.69 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "beafeafd-f56d-4f4c-b84b-09188a61b2c9")
 		)
@@ -34192,6 +35220,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 293.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "0603B101K500CT"
 			(at 293.37 33.02 0)
 			(effects
 				(font
@@ -34604,6 +35640,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 154.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3bd1748f-7b86-4b4f-867e-cc9229d117c3")
 		)
@@ -34736,6 +35780,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 203.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -35209,6 +36261,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 151.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e508770-d5a9-419e-83ee-1e5e95355649")
 		)
@@ -35510,6 +36570,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-075K1L"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ffd0924-1a5b-4101-ae94-4a01d8200bb7")
 		)
@@ -35786,6 +36854,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ea31a4a9-2cda-429c-8bf3-e89a0f3f7ac3")
 		)
@@ -36055,6 +37131,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 186.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "92e17099-1cba-44f4-ad9d-29831861853f")
 		)
@@ -36199,6 +37283,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 320.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 320.04 72.39 0)
 			(effects
 				(font
@@ -36530,6 +37622,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 222.25 33.02 0)
 			(effects
 				(font
@@ -36881,6 +37981,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 320.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca54b8f5-0d35-49c3-ac7c-eba2576a33b8")
 		)
@@ -37022,6 +38130,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -37463,6 +38579,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" " RC0603FR-0710KL"
+			(at 287.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cff7546-de22-4dbb-869c-6e840546d00a")
 		)
@@ -37805,6 +38929,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B225KP8NNNC"
+			(at 189.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a4336320-25c2-48cc-8d27-5c5c53c9daba")
 		)
@@ -38082,6 +39214,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -38398,6 +39538,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 314.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "128f7fbc-6ef3-42ed-9195-bdb9cf932476")
 		)
@@ -38660,6 +39808,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
 			(at 142.24 36.83 0)
 			(effects
 				(font
@@ -39068,6 +40224,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 160.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49f131ce-2739-4181-94ee-ee15565b4cd5")
 		)
@@ -39362,6 +40526,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603JR-07470RL"
+			(at 132.08 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c7abc0b-e69c-4274-8d63-b3608ae8dc7f")
 		)
@@ -39561,6 +40733,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 294.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 294.64 201.93 0)
 			(effects
 				(font
@@ -39985,6 +41165,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ef28acf-89d2-4ad7-878f-e758e633f3bc")
 		)
@@ -40117,6 +41305,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 33.02 58.42 0)
 			(effects
 				(font

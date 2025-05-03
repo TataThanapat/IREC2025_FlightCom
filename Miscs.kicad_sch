@@ -6180,6 +6180,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71edae1b-9699-4a36-9303-9d33122adba5")
 		)
@@ -6513,6 +6521,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70a69e77-8fb0-4963-a03c-63fe42f433ae")
 		)
@@ -6680,6 +6696,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Digikey Parts" ""
+			(at 193.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6969,6 +6993,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -7402,6 +7434,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0358aaf9-3a58-4e4c-bdec-63a1cbc1a270")
 		)
@@ -7689,6 +7729,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
 			(at 50.8 78.74 0)
 			(effects
 				(font
@@ -7990,6 +8038,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8d1f087-8d6b-42ce-98bf-8937a408437d")
 		)
@@ -8132,6 +8188,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 90.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 90.17 143.51 0)
 			(effects
 				(font
@@ -9018,6 +9082,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5c89c04-4cae-4f76-9492-cc527200fc0a")
 		)
@@ -9372,6 +9444,14 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Parts" "RC0603JR-071KL"
+			(at 198.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a465600-f2b3-4f54-b117-2e9ecdcad843")
 		)
@@ -9659,6 +9739,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -10026,6 +10114,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0747KL"
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e553047-acd4-4745-b1d7-9471acb57955")
 		)
@@ -10386,6 +10482,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
+			(at 62.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c6bb260-ef84-407c-a66b-013badc90849")
 		)
@@ -10739,6 +10843,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.68 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603FR-0722KL"
 			(at 106.68 236.22 0)
 			(effects
 				(font

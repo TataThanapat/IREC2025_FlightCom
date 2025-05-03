@@ -555,13 +555,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -885,6 +885,18 @@
           "group_by": false,
           "label": "name",
           "name": "name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field22",
+          "name": "Field22",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Parts",
+          "name": "Digikey Parts",
           "show": false
         }
       ],

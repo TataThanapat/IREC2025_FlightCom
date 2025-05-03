@@ -6150,6 +6150,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c4b767d7-3164-4dd9-85b2-a1472b20a3df")
 		)
@@ -6483,6 +6491,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff58cca9-4563-4a64-a7d3-67567ed49f47")
 		)
@@ -6770,6 +6786,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "RC0603FR-072K2L"
 			(at 166.37 92.71 0)
 			(effects
 				(font
@@ -7108,6 +7132,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 45.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebda6ea0-c0e6-4044-9afb-a6dd0563e1eb")
 		)
@@ -7250,6 +7282,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 194.31 104.14 0)
 			(effects
 				(font
@@ -7610,6 +7650,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B105KO8NNNC"
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70904915-2a51-4956-b403-1e59d2a93ff9")
 		)
@@ -7934,6 +7982,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
 			(at 234.95 50.8 0)
 			(effects
 				(font
@@ -8408,6 +8464,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1972a1dd-fac3-4afd-a7e1-db1862a789fc")
 		)
@@ -8834,6 +8898,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "RC0603FR-072K2L"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e3dfcb2-ebf2-4d2d-9937-4c8de2deb888")
 		)
@@ -9121,6 +9193,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 234.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "ERJ-P06J4R7V"
 			(at 234.95 31.75 0)
 			(effects
 				(font
@@ -9606,6 +9686,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" ""
+			(at 203.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "404c6427-efbc-48ab-b9c5-8a5a83d755ec")
 		)
@@ -10008,6 +10096,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "ERJ-P06J4R7V"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b7f70b5-c73d-4b85-bac9-87c64b9b57ca")
 		)
@@ -10143,6 +10239,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 60.96 170.18 0)
 			(effects
 				(font
@@ -10437,6 +10541,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "111d992f-0395-4e40-9e25-e16b28955d2b")
 		)
@@ -10713,6 +10825,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 68.58 96.52 0)
 			(effects
 				(font
@@ -11030,6 +11150,14 @@
 				)
 			)
 		)
+		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62abe51e-4a96-479a-a416-36794ae05436")
 		)
@@ -11304,6 +11432,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" ""
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -11609,6 +11745,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Parts" "CL10B104KA8NNNC"
 			(at 33.02 106.68 0)
 			(effects
 				(font
