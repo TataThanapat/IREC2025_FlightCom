@@ -3370,7 +3370,7 @@
 				)
 			)
 		)
-		(property "Digikey Parts" ""
+		(property "Digikey Parts" "PMEG2005EJ"
 			(at 92.71 92.71 0)
 			(effects
 				(font
@@ -5555,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Digikey Parts" ""
+		(property "Digikey Parts" "E1221NB--05D000814U1930"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -5712,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Digikey Parts" ""
+		(property "Digikey Parts" "SAM-M10Q-00B"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Digikey Parts" ""
+		(property "Digikey Parts" "MH1608-101Y"
 			(at 92.71 121.92 0)
 			(effects
 				(font
