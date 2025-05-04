@@ -6698,7 +6698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Parts" ""
+		(property "Digikey Parts" "PS1440P02BT"
 			(at 193.04 39.37 0)
 			(effects
 				(font
@@ -8195,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Digikey Parts" ""
+		(property "Digikey Parts" "THGBMUG6C1LBAIL"
 			(at 90.17 143.51 0)
 			(effects
 				(font
