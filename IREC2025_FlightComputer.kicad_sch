@@ -28981,7 +28981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
+		(property "Footprint" "pyrolim:RES_3540_TEC"
 			(at 313.182 186.69 90)
 			(effects
 				(font
