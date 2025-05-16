@@ -3249,6 +3249,54 @@
 		)
 		(uuid "057defd9-ae6d-4eb1-96d1-f77b49d2c8f8")
 	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 118.11 33.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "05d026e5-d1d1-48f5-b13c-e3c6ad42b0c8")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 118.618 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "174b5eb9-4a86-4633-853b-e685adbc64a0")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 108.712 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1c53d126-5b69-4f17-a427-8478cff358f5")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 117.856 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "27350786-7d32-4322-8bbb-7ec2f3a896a4")
+	)
 	(text "	\nERJ-2RKF2201X"
 		(exclude_from_sim no)
 		(at 167.64 93.472 90)
@@ -3269,6 +3317,54 @@
 		)
 		(uuid "2e832ce6-f122-4d02-9475-9d27ebbe78a1")
 	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 17.78 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3e2d1d8b-ce29-4632-8061-72917c7dfa35")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 117.094 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3f896247-4e65-489e-8caa-269e643c7c76")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 17.526 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "40c310aa-d1a1-45fd-adc0-e28355631ef2")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 45.72 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "49259d2f-f340-484a-a5bd-f4d2ebacee63")
+	)
 	(text "GRM155R71H104KE14D"
 		(exclude_from_sim no)
 		(at 116.078 112.014 0)
@@ -3288,6 +3384,42 @@
 			)
 		)
 		(uuid "5673532c-c4b0-44ce-a4e0-ba6b96dcc93b")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 117.094 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5acabc76-e309-4e17-9038-763d9589837e")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 52.324 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "64f8243c-0190-4460-b2b8-aaa2368ad3b8")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 17.78 175.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "765b0995-22f3-44ac-b7de-64ff497baf93")
 	)
 	(text "RC0402JR-074K7L"
 		(exclude_from_sim no)
@@ -3389,6 +3521,18 @@
 		)
 		(uuid "ca39d81c-07f3-4431-b09f-9fc8c17a32ee")
 	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 17.78 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cb2d69df-aee0-445d-9599-29f679637009")
+	)
 	(text "GRM155R71H104KE14D"
 		(exclude_from_sim no)
 		(at 34.29 109.982 0)
@@ -3399,9 +3543,9 @@
 		)
 		(uuid "e64d8918-df2f-4961-99ee-d42d3851756b")
 	)
-	(text "ADXL375BCCZ-RL7 (High-G) SPI (Dedicated bus)"
+	(text "ADXL375BCCZ-RL7 (High-G) SPI "
 		(exclude_from_sim no)
-		(at 40.132 16.002 0)
+		(at 32.258 16.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3409,15 +3553,51 @@
 		)
 		(uuid "f0864fc4-aff1-4046-96f6-ab3e3680cdee")
 	)
-	(text "Altimeter SPI"
+	(text "D"
 		(exclude_from_sim no)
-		(at 22.86 142.748 0)
+		(at 108.204 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f0f6ef9a-47af-4339-b25d-1056418ee2c4")
+	)
+	(text "Altimeter SPI (Dedicated bus)"
+		(exclude_from_sim no)
+		(at 31.75 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "f8226fa2-90c6-4d28-941b-882e96095d19")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 38.1 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f87c5850-de53-459c-9ad5-7073c3a2e912")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 111.506 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ff1e6249-9265-49de-b636-dcc13f7ea99f")
 	)
 	(text "GRM155R71H104KE14D"
 		(exclude_from_sim no)
@@ -3429,10 +3609,10 @@
 		)
 		(uuid "ffe6c713-2e0c-4e4b-ac95-773de53444d1")
 	)
-	(text_box "SPI1: SX1262 LoRa\nSPI2: ADXL375BCCZ-RL7\nSPI3: BMI088 and MS5207"
+	(text_box "SPI1: SX1262 LoRa\nSPI2: MS5207\nSPI3: BMI088 and ADXL375BCCZ-RL7"
 		(exclude_from_sim no)
 		(at 198.12 151.765 0)
-		(size 29.21 8.89)
+		(size 44.45 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3474,6 +3654,12 @@
 		(uuid "27bab3a1-356b-485c-9438-88e1529e0c2b")
 	)
 	(junction
+		(at 35.56 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bb17262-11d3-4cfa-aff1-aa4df60b0fc3")
+	)
+	(junction
 		(at 223.52 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3486,16 +3672,16 @@
 		(uuid "2e9d5a88-12d7-497a-b94d-30d9fd7b78fa")
 	)
 	(junction
-		(at 36.83 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47974c7f-25cd-48f6-8262-01e066ff78ca")
-	)
-	(junction
 		(at 243.84 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e7bde4b-da18-4d32-beaf-0594716bdae2")
+	)
+	(junction
+		(at 35.56 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ed2ef81-9aa7-458d-94c2-e15aedec643e")
 	)
 	(junction
 		(at 26.67 41.91)
@@ -3556,12 +3742,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84711359-8179-4c62-a7cf-ebdfd3b8db82")
-	)
-	(junction
-		(at 36.83 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b25adcf8-e198-4378-a3b7-002df0e4b540")
 	)
 	(junction
 		(at 172.72 175.26)
@@ -3731,6 +3911,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 41.91) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006463e9-248d-4d47-af7b-4660436446ac")
+	)
+	(wire
+		(pts
 			(xy 228.6 31.75) (xy 228.6 35.56)
 		)
 		(stroke
@@ -3828,6 +4018,16 @@
 			(type default)
 		)
 		(uuid "17b932e8-8faa-42ee-8e75-2b5766008262")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b155b1d-3ad6-45b1-b7f9-fe166cf1601a")
 	)
 	(wire
 		(pts
@@ -3991,16 +4191,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 36.83 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e23055f-e703-48c5-ad5a-14d35a57378b")
-	)
-	(wire
-		(pts
 			(xy 19.05 41.91) (xy 19.05 53.34)
 		)
 		(stroke
@@ -4111,16 +4301,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 36.83 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d72a0cf-102a-4d10-be8a-94fc6dc51c43")
-	)
-	(wire
-		(pts
 			(xy 60.96 157.48) (xy 60.96 160.02)
 		)
 		(stroke
@@ -4161,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 41.91) (xy 36.83 41.91)
+			(xy 26.67 41.91) (xy 35.56 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4191,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 49.53) (xy 36.83 49.53)
+			(xy 26.67 49.53) (xy 35.56 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5417,7 @@
 			)
 		)
 	)
-	(global_label "ADXL_NSS"
+	(global_label "ADXL_CS"
 		(shape input)
 		(at 43.18 52.07 180)
 		(fields_autoplaced yes)
@@ -5249,12 +5429,34 @@
 		)
 		(uuid "12a42180-7bca-4905-afdb-a671b1b358e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.8815 52.07 0)
+			(at 32.1515 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADXL_MOSI"
+		(shape output)
+		(at 196.85 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15374d6b-801e-4a6e-a271-37080ef3c274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9952 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5391,6 +5593,28 @@
 			)
 		)
 	)
+	(global_label "ADXL_SCLK"
+		(shape output)
+		(at 196.85 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac2c1ed-4da1-4a4f-a880-6aedad6a04b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.1766 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MS5607_SCLK"
 		(shape input)
 		(at 34.29 172.72 180)
@@ -5409,28 +5633,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MS5607_MOSI"
-		(shape output)
-		(at 196.85 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "395cc7db-0cc1-4098-88cf-8218a161662c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8979 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5479,28 +5681,6 @@
 			)
 		)
 	)
-	(global_label "MS5607_MISO"
-		(shape input)
-		(at 196.85 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74228056-9145-4eff-ae49-04204b03f3cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8979 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADXL_MOSI"
 		(shape input)
 		(at 104.14 36.83 0)
@@ -5514,6 +5694,28 @@
 		(uuid "8c493412-1aed-4e50-810a-2aece1cec209")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.2852 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADXL_MISO"
+		(shape input)
+		(at 196.85 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "907467fa-6e23-417b-b36f-91d62bd08ead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9952 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5791,7 @@
 			)
 		)
 	)
-	(global_label "MS5607_NSS"
+	(global_label "MS5607_CS"
 		(shape input)
 		(at 34.29 175.26 180)
 		(fields_autoplaced yes)
@@ -5601,7 +5803,7 @@
 		)
 		(uuid "b216a76a-8763-4ecb-a69b-69450cb008fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0888 175.26 0)
+			(at 20.3588 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,28 +6055,6 @@
 			)
 		)
 	)
-	(global_label "MS5607_SCLK"
-		(shape output)
-		(at 196.85 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4801379-18ad-4fcb-833d-513cbe871465")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.0793 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI3_MOSI"
 		(shape input)
 		(at 180.34 161.29 90)
@@ -5899,7 +6079,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 36.83 45.72 0)
+		(at 35.56 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5907,7 +6087,7 @@
 		(dnp no)
 		(uuid "071778ab-2657-422a-ab83-cba32e2ff8aa")
 		(property "Reference" "C53"
-			(at 39.37 43.942 0)
+			(at 38.1 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6096,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 39.37 45.72 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5925,7 +6105,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 35.052 45.72 90)
+			(at 33.782 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +6114,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6123,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +6132,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6141,7 @@
 			)
 		)
 		(property "Stock" "12931403"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +6150,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +6159,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +6168,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6177,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6186,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6195,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6204,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6213,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6222,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 39.624 47.244 0)
+			(at 38.354 47.244 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6052,7 +6232,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6241,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6250,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6259,7 @@
 			)
 		)
 		(property "DC Resistance (DCR)" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6267,7 @@
 			)
 		)
 		(property "Equivalent Series Resistance(ESR)" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6275,7 @@
 			)
 		)
 		(property "Frequency - Self Resonant" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6283,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6291,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6299,7 @@
 			)
 		)
 		(property "Q @ Freq" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6307,7 @@
 			)
 		)
 		(property "Rated Current" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6315,7 @@
 			)
 		)
 		(property "Rated Voltage" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6323,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6331,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10B104KA8NNNC"
-			(at 36.83 45.72 0)
+			(at 36.068 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6672,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10B104KA8NNNC"
-			(at 31.75 31.75 0)
+			(at 21.844 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +7584,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a03b450-f92d-4d77-a75a-4aadc10534d6")
 		(property "Reference" "C36"
 			(at 163.83 43.1799 0)
@@ -7651,7 +7830,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10B105KO8NNNC"
-			(at 161.29 45.72 0)
+			(at 161.798 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +8169,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10A106KP8NNNC"
-			(at 234.95 50.8 0)
+			(at 233.426 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9742,7 @@
 		(fields_autoplaced yes)
 		(uuid "977e754d-4fbe-4200-ac98-75022eff4150")
 		(property "Reference" "U2"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9750,7 @@
 			)
 		)
 		(property "Value" "MMC5983MA"
-			(at 203.2 30.48 0)
+			(at 203.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +9866,7 @@
 			)
 		)
 		(property "Digikey Parts" "MMC5983MA"
-			(at 203.2 44.45 0)
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10309,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d8887e7-61c3-4a96-bb9d-bb64780f2583")
 		(property "Reference" "U6"
-			(at 69.85 168.9099 0)
+			(at 69.85 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10318,7 @@
 			)
 		)
 		(property "Value" "MS5607-02BA"
-			(at 69.85 171.4499 0)
+			(at 69.85 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,11 +10426,12 @@
 			)
 		)
 		(property "Digikey Parts" "MS560702BA03-50"
-			(at 60.96 170.18 0)
+			(at 69.85 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "7"
@@ -10295,7 +10475,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1a68c16-af14-4d18-af08-58fa5d9237ea")
 		(property "Reference" "C42"
 			(at 226.06 101.5999 0)
@@ -10542,7 +10721,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10B104KA8NNNC"
-			(at 223.52 104.14 0)
+			(at 230.632 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +11330,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10A106KP8NNNC"
-			(at 26.67 45.72 0)
+			(at 26.924 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,7 +11492,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc740580-c286-411c-8471-8c21a071074a")
 		(property "Reference" "U12"
 			(at 74.93 26.67 0)
@@ -11440,7 +11618,7 @@
 			)
 		)
 		(property "Digikey Parts" "ADXL375BCCZ-RL7"
-			(at 74.93 41.91 0)
+			(at 74.168 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
