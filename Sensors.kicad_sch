@@ -11684,7 +11684,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0bc5a74-18d4-4dc9-99f2-4a89c5d0d875")
 		(property "Reference" "C44"
 			(at 35.56 104.1399 0)
@@ -11931,7 +11930,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10B104KA8NNNC"
-			(at 33.02 106.68 0)
+			(at 29.464 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
