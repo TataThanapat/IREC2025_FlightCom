@@ -27021,7 +27021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L4.0-W4.0_XFL4020-102MEB"
+		(property "Footprint" "newinductor:IND_EPCOS_B82432T_EPC"
 			(at 505.46 111.76 0)
 			(effects
 				(font
@@ -27137,7 +27137,7 @@
 				)
 			)
 		)
-		(property "Digikey Parts" "CS160808-2R2K"
+		(property "Digikey Parts" "B82432T1222K000"
 			(at 505.206 105.918 0)
 			(effects
 				(font
