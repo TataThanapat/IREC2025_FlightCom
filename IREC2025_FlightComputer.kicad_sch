@@ -16066,6 +16066,12 @@
 		(uuid "18824780-beeb-4931-ab68-1be9dd50ed8b")
 	)
 	(junction
+		(at 504.19 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18bc238e-3940-4932-bc79-d5efd1acb848")
+	)
+	(junction
 		(at 314.96 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16186,12 +16192,6 @@
 		(uuid "6dc6c0ef-10a5-44ff-a60c-731a0148c7b4")
 	)
 	(junction
-		(at 529.59 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7286b0d4-5802-4884-8c76-33b29b8db350")
-	)
-	(junction
 		(at 80.01 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16262,6 +16262,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83a19e55-6a6d-4714-aeb7-dfdbf0da28d5")
+	)
+	(junction
+		(at 504.19 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e426b7-9a9b-4478-9f8f-5822fab4e199")
 	)
 	(junction
 		(at 554.99 157.48)
@@ -16378,6 +16384,12 @@
 		(uuid "c2074688-e3a6-46b3-aa98-360320e79888")
 	)
 	(junction
+		(at 504.19 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9080047-da9d-4093-aaae-244095dd4fcb")
+	)
+	(junction
 		(at 129.54 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16472,12 +16484,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee188d8e-de5d-4c26-994e-1f839fe582e2")
-	)
-	(junction
-		(at 529.59 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee4dc356-e62f-4c23-87be-973c11716c47")
 	)
 	(junction
 		(at 467.36 171.45)
@@ -16576,16 +16582,6 @@
 			(type default)
 		)
 		(uuid "00a98bcc-1592-4d6f-9a2e-01c3d4b3abfc")
-	)
-	(wire
-		(pts
-			(xy 529.59 168.91) (xy 529.59 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c4b34f-a010-4f7c-9880-c2cdd1a552f6")
 	)
 	(wire
 		(pts
@@ -16759,7 +16755,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 157.48) (xy 510.54 157.48)
+			(xy 502.92 157.48) (xy 504.19 157.48)
 		)
 		(stroke
 			(width 0)
@@ -16849,7 +16845,7 @@
 	)
 	(wire
 		(pts
-			(xy 554.99 166.37) (xy 554.99 170.18)
+			(xy 554.99 166.37) (xy 554.99 171.45)
 		)
 		(stroke
 			(width 0)
@@ -17309,16 +17305,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 158.75) (xy 529.59 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371a2358-ad4e-4014-9f4f-eaa2de032a15")
-	)
-	(wire
-		(pts
 			(xy 383.54 30.48) (xy 391.16 30.48)
 		)
 		(stroke
@@ -17486,6 +17472,16 @@
 			(type default)
 		)
 		(uuid "46fb01e9-52fd-42b6-ae75-ebe0b2e47d68")
+	)
+	(wire
+		(pts
+			(xy 504.19 167.64) (xy 504.19 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478f1ac2-9d5a-4a52-b0cb-2fd06e594353")
 	)
 	(wire
 		(pts
@@ -17659,7 +17655,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 171.45) (xy 467.36 170.18)
+			(xy 467.36 171.45) (xy 467.36 168.91)
 		)
 		(stroke
 			(width 0)
@@ -17889,7 +17885,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 157.48) (xy 467.36 162.56)
+			(xy 467.36 157.48) (xy 467.36 161.29)
 		)
 		(stroke
 			(width 0)
@@ -18429,6 +18425,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.19 157.48) (xy 510.54 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86386168-e278-44ab-ad62-810f9142e811")
+	)
+	(wire
+		(pts
 			(xy 457.2 168.91) (xy 457.2 171.45)
 		)
 		(stroke
@@ -18486,6 +18492,16 @@
 			(type default)
 		)
 		(uuid "896d3d29-5da5-4cb1-8fee-231321eea733")
+	)
+	(wire
+		(pts
+			(xy 504.19 167.64) (xy 504.19 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1a4ff1-e498-4b3c-86b0-e5553200cbb0")
 	)
 	(wire
 		(pts
@@ -18599,16 +18615,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 171.45) (xy 529.59 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90fc87cb-acc5-489c-b8a5-a92aa01506bc")
-	)
-	(wire
-		(pts
 			(xy 177.8 43.18) (xy 186.69 43.18)
 		)
 		(stroke
@@ -18636,16 +18642,6 @@
 			(type default)
 		)
 		(uuid "91e37ac2-e9b4-4f9e-9d61-652897b88166")
-	)
-	(wire
-		(pts
-			(xy 529.59 157.48) (xy 554.99 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92912efd-442d-49ac-9b1e-0630f8d4dd1d")
 	)
 	(wire
 		(pts
@@ -18859,7 +18855,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 171.45) (xy 529.59 171.45)
+			(xy 492.76 171.45) (xy 504.19 171.45)
 		)
 		(stroke
 			(width 0)
@@ -18899,7 +18895,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 157.48) (xy 529.59 157.48)
+			(xy 523.24 157.48) (xy 554.99 157.48)
 		)
 		(stroke
 			(width 0)
@@ -19399,16 +19395,6 @@
 	)
 	(wire
 		(pts
-			(xy 554.99 170.18) (xy 529.59 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2163136-5323-4249-95a1-fdddd74dd290")
-	)
-	(wire
-		(pts
 			(xy 168.91 43.18) (xy 177.8 43.18)
 		)
 		(stroke
@@ -19616,6 +19602,16 @@
 			(type default)
 		)
 		(uuid "cb5524f3-67cf-4a33-9394-c1b434d099f5")
+	)
+	(wire
+		(pts
+			(xy 504.19 171.45) (xy 554.99 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9100d1-5efe-4ecb-b509-bdccd5f05945")
 	)
 	(wire
 		(pts
@@ -24862,7 +24858,7 @@
 				)
 			)
 		)
-		(property "Value" "68uH"
+		(property "Value" "33uH"
 			(at 514.35 154.94 90)
 			(effects
 				(font
@@ -24870,7 +24866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L22.5-W22.0"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP1038C_10.0x10.0mm"
 			(at 514.35 157.48 0)
 			(effects
 				(font
@@ -24897,8 +24893,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Parts" "CSBX2212-680M"
-			(at 514.096 159.004 90)
+		(property "Digikey Parts" "1274AS-H-330M=P3"
+			(at 518.922 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25801,7 +25797,7 @@
 		(fields_autoplaced yes)
 		(uuid "3017a197-b78b-453d-91d0-19bbcfdb48f9")
 		(property "Reference" "C38"
-			(at 459.74 162.1154 0)
+			(at 459.74 163.3854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25809,8 +25805,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
-			(at 459.74 164.6555 0)
+		(property "Value" "100uF"
+			(at 459.74 165.9255 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -25818,7 +25814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 455.422 165.1 90)
 			(effects
 				(font
@@ -25945,7 +25941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "UUD1C471MNL1GS"
+		(property "Digikey" "EEE-1AA101WR"
 			(at 457.2 165.1 0)
 			(effects
 				(font
@@ -33430,7 +33426,7 @@
 	(symbol
 		(lib_name "0402,1uF_2")
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 467.36 166.37 0)
+		(at 467.36 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33438,7 +33434,7 @@
 		(dnp no)
 		(uuid "80ce86ed-4032-4ef3-acd1-5a3c575a16ac")
 		(property "Reference" "C37"
-			(at 468.63 164.592 0)
+			(at 468.63 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33447,7 +33443,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 469.138 166.37 0)
+			(at 469.138 165.1 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -33456,7 +33452,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 465.582 166.37 90)
+			(at 465.582 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33465,7 +33461,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33474,7 +33470,7 @@
 			)
 		)
 		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33483,7 +33479,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33492,7 +33488,7 @@
 			)
 		)
 		(property "Stock" "4952869"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33501,7 +33497,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33510,7 +33506,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33519,7 +33515,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33528,7 +33524,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33537,7 +33533,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33546,7 +33542,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33555,7 +33551,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33564,7 +33560,7 @@
 			)
 		)
 		(property "Part" "CL05A105KA5NQNC"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33573,7 +33569,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 469.138 168.148 0)
+			(at 469.138 166.878 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -33583,7 +33579,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33592,7 +33588,7 @@
 			)
 		)
 		(property "Capacitance" "1uF"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33601,7 +33597,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33610,7 +33606,7 @@
 			)
 		)
 		(property "name" "GRM155R70J105KA12D"
-			(at 468.122 172.466 0)
+			(at 468.122 171.196 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -33619,7 +33615,7 @@
 			)
 		)
 		(property "DC Resistance (DCR)" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33627,7 +33623,7 @@
 			)
 		)
 		(property "Equivalent Series Resistance(ESR)" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33635,7 +33631,7 @@
 			)
 		)
 		(property "Frequency - Self Resonant" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33643,7 +33639,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33651,7 +33647,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33659,7 +33655,7 @@
 			)
 		)
 		(property "Q @ Freq" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33667,7 +33663,7 @@
 			)
 		)
 		(property "Rated Current" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33675,7 +33671,7 @@
 			)
 		)
 		(property "Rated Voltage" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33683,7 +33679,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 467.36 166.37 0)
+			(at 467.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33691,7 +33687,7 @@
 			)
 		)
 		(property "Digikey Parts" "CL10B105KO8NNNC"
-			(at 478.282 168.656 0)
+			(at 478.282 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39052,7 +39048,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:SS34_C466502")
-		(at 529.59 163.83 270)
+		(at 504.19 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39060,7 +39056,7 @@
 		(dnp no)
 		(uuid "b68f1093-a699-44b5-a7fa-0f4c55fd66a4")
 		(property "Reference" "D8"
-			(at 534.67 164.592 90)
+			(at 509.27 163.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39068,7 +39064,7 @@
 			)
 		)
 		(property "Value" "SS34_C466502"
-			(at 538.48 162.814 90)
+			(at 513.08 161.544 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -39076,7 +39072,7 @@
 			)
 		)
 		(property "Footprint" "GNSS:DIOM7959X262N"
-			(at 521.97 163.83 0)
+			(at 496.57 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39085,7 +39081,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_High-Diode-SS34_C466502.html"
-			(at 519.43 163.83 0)
+			(at 494.03 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39094,7 +39090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39103,7 +39099,7 @@
 			)
 		)
 		(property "LCSC Part" "C466502"
-			(at 516.89 163.83 0)
+			(at 491.49 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39112,7 +39108,7 @@
 			)
 		)
 		(property "DC Resistance (DCR)" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39120,7 +39116,7 @@
 			)
 		)
 		(property "Equivalent Series Resistance(ESR)" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39128,7 +39124,7 @@
 			)
 		)
 		(property "Frequency - Self Resonant" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39136,7 +39132,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39144,7 +39140,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39152,7 +39148,7 @@
 			)
 		)
 		(property "Q @ Freq" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39160,7 +39156,7 @@
 			)
 		)
 		(property "Rated Current" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39168,7 +39164,7 @@
 			)
 		)
 		(property "Rated Voltage" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39176,7 +39172,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39184,7 +39180,7 @@
 			)
 		)
 		(property "Digikey Parts" "SS34"
-			(at 529.59 163.83 0)
+			(at 504.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45246,7 +45242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "180uF:CAP_FKS_F_PAN"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 554.99 163.83 0)
 			(effects
 				(font
