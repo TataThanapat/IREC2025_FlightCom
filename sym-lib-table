@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XL1509-5.0-EV")(type "KiCad")(uri "${KIPRJMOD}/XL1509-5.0-EV.kicad_sym")(options "")(descr ""))
+)
