@@ -1878,6 +1878,30 @@
 				)
 			)
 		)
+		(property "Field22" ""
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey parts" ""
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e551bc61-6276-4a66-876c-f150fd6d837a")
 		)
@@ -2147,6 +2171,30 @@
 			)
 		)
 		(property "Digikey Parts" "CL10A106KP8NNNC"
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field22" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey parts" ""
 			(at 63.5 100.33 0)
 			(effects
 				(font
@@ -2641,6 +2689,30 @@
 				)
 			)
 		)
+		(property "Field22" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey parts" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "75e468be-6ced-479b-953d-ea728a13002e")
 		)
@@ -2857,6 +2929,30 @@
 			)
 		)
 		(property "Digikey Parts" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field22" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey parts" ""
 			(at 120.65 69.85 0)
 			(effects
 				(font
